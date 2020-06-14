@@ -13,25 +13,36 @@ import {
 } from 'mdbreact';
 import React, { Component } from 'react';
 
+import propTypes from 'prop-types';
+
 const ChartSection1 = props => {
-  const { sessions } = props;
-  const labels = sessions[0].id
-    ? sessions.map(session => session.dateTime)
-    : [''];
-  const data = sessions[0].id
-    ? sessions.map(session =>
-        session.transactions.reduce(
-          (prev, curr) => prev + parseFloat(curr.amountEarned),
-          0
-        )
-      )
-    : [''];
+  const { thisWeeksSessions, thisMonthsSessions } = props;
+  const labels =
+    thisWeeksSessions.length > 0
+      ? thisWeeksSessions
+          .filter(session => session.isDeposit !== true)
+          .sort((a, b) => (a.id > b.id ? 1 : -1))
+          .map(session => session.dateTime)
+      : [''];
+  const data =
+    thisWeeksSessions.length > 0
+      ? thisWeeksSessions
+          .filter(session => session.isDeposit !== true)
+          .sort((a, b) => (a.id > b.id ? 1 : -1))
+          .map(
+            session =>
+              Math.round((session.finalAmount - session.initialAmount) * 100) /
+              100
+          )
+      : [''];
+
+  console.log(data);
 
   const dataBar = {
     labels,
     datasets: [
       {
-        label: 'Ganancias por sesión en %',
+        label: 'Earnings by session $',
         data,
         backgroundColor: '#BADA55',
         borderWidth: 1,
@@ -128,6 +139,13 @@ const ChartSection1 = props => {
       </MDBCol>
     </MDBRow>
   );
+};
+
+ChartSection1.propTypes = {
+  thisWeeksSessions: propTypes.array,
+};
+ChartSection1.defaultProps = {
+  thisWeeksSessions: [{ id: 0, initialAmount: 0, finalAmount: 0 }],
 };
 
 export default ChartSection1;

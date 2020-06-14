@@ -1,121 +1,111 @@
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCardText,
-  MDBCol,
-  MDBIcon,
-  MDBRow,
-} from 'mdbreact';
-
 import { AdminCardComponent } from './AdminCardComponent';
+import { MDBRow } from 'mdbreact';
 import React from 'react';
+import propTypes from 'prop-types';
 
-const AdminCardSection1 = () => {
+const AdminCardSection1 = props => {
+  const { thisWeeksSessions, thisMonthsSessions } = props;
+
+  const thisWeeksInitialAmount =
+    thisWeeksSessions.length > 1
+      ? thisWeeksSessions.sort((a, b) => (a.id > b.id ? 1 : -1))[0]
+          .initialAmount
+      : 0;
+
+  const thisWeeksTarget = thisWeeksInitialAmount * 1.5;
+
+  const thisWeeksScore = thisWeeksSessions
+    .map(session => {
+      return session.transactions.reduce(
+        (prev, curr) =>
+          curr.isWon === true ? [prev[0] + 1, prev[1]] : [prev[0], prev[1] + 1],
+        [0, 0]
+      );
+    })
+    .reduce((prev, curr) => [prev[0] + curr[0], prev[1] + curr[1]], [0, 0]);
+
+  const currentAmount =
+    thisWeeksSessions.length > 1
+      ? thisWeeksSessions.sort((a, b) => (a.id < b.id ? 1 : -1))[0].finalAmount
+      : 0;
+
   return (
-    <MDBRow className="mb-4">
-      <AdminCardComponent
-        title="Subscriptions"
-        comment="Worse than last week (25%)"
-        total={200}
-        max={1000}
-        color="grey"
-        icon="dollar-sign"
-        className="warning-color"
-      />
-      <AdminCardComponent
-        title="Monto Inicial"
-        comment=""
-        total={200.12312}
-        color="grey"
-        icon="dollar-sign"
-        className="warning-color"
-      />
-      <AdminCardComponent
-        title="Meta Del Mes"
-        comment=""
-        total={200}
-        max={1000}
-        color="grey"
-        icon="dollar-sign"
-        className="warning-color"
-      />
-      <MDBCol xl="3" md="6" className="mb-r">
-        <MDBCard className="cascading-admin-card">
-          <div className="admin-up">
-            <MDBIcon icon="chart-line" className="warning-color" />
-            <div className="data">
-              <p>SUBSCRIPTIONS</p>
-              <h4>
-                <strong>200</strong>
-              </h4>
-            </div>
-          </div>
-          <MDBCardBody>
-            <div className="progress">
-              <div
-                aria-valuemax="100"
-                aria-valuemin="0"
-                aria-valuenow="25"
-                className="progress-bar bg grey"
-                role="progressbar"
-                style={{ width: '25%' }}></div>
-            </div>
-            <MDBCardText>Worse than last week (25%)</MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol xl="3" md="6" className="mb-r">
-        <MDBCard className="cascading-admin-card">
-          <div className="admin-up">
-            <MDBIcon icon="chart-pie" className="light-blue lighten-1" />
-            <div className="data">
-              <p>TRAFFIC</p>
-              <h4>
-                <strong>20000</strong>
-              </h4>
-            </div>
-          </div>
-          <MDBCardBody>
-            <div className="progress">
-              <div
-                aria-valuemax="100"
-                aria-valuemin="0"
-                aria-valuenow="25"
-                className="progress-bar grey darken-2"
-                role="progressbar"
-                style={{ width: '75%' }}></div>
-            </div>
-            <MDBCardText>Worse than last week (75%)</MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol xl="3" md="6" className="mb-r">
-        <MDBCard className="cascading-admin-card">
-          <div className="admin-up">
-            <MDBIcon icon="chart-bar" className="red accent-2" />
-            <div className="data">
-              <p>ORGANIC TRAFFIC</p>
-              <h4>
-                <strong>2000</strong>
-              </h4>
-            </div>
-          </div>
-          <MDBCardBody>
-            <div className="progress">
-              <div
-                aria-valuemax="100"
-                aria-valuemin="0"
-                aria-valuenow="25"
-                className="progress-bar bg-primary"
-                role="progressbar"
-                style={{ width: '25%' }}></div>
-            </div>
-            <MDBCardText>Better than last week (25%)</MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-    </MDBRow>
+    <div>
+      <MDBRow className="mb-4">
+        <AdminCardComponent
+          title="Week's $ initial"
+          total={thisWeeksInitialAmount}
+          label={thisWeeksInitialAmount}
+          color="grey"
+          icon="dollar-sign"
+          className="success-color"
+        />
+        <AdminCardComponent
+          title="Current $"
+          total={currentAmount}
+          label={currentAmount}
+          color="grey"
+          icon="dollar-sign"
+          className="success-color"
+        />
+        <AdminCardComponent
+          title="Weeks's Score"
+          comment="ganadas/perdidas"
+          total={
+            (thisWeeksScore[0] / (thisWeeksScore[0] + thisWeeksScore[1])) * 100
+          }
+          min={0}
+          max={100}
+          label={thisWeeksScore.join('/')}
+          backgroundColor="danger-color"
+          color="success-color"
+          icon="chart-line"
+          className="light-blue lighten-1"
+        />
+        <AdminCardComponent
+          title="Week's Target"
+          comment={`$${currentAmount}`}
+          total={currentAmount}
+          label={thisWeeksTarget}
+          min={thisWeeksInitialAmount}
+          max={thisWeeksTarget}
+          color="blue"
+          icon="chart-pie"
+          className="light-blue lighten-1"
+        />
+      </MDBRow>
+      <MDBRow className="mb-4">
+        {' '}
+        <AdminCardComponent
+          title="Percentaje to target"
+          comment={currentAmount}
+          total={currentAmount}
+          label={`${Math.round((thisWeeksTarget / currentAmount - 1) * 10000) /
+            100}%`}
+          min={thisWeeksInitialAmount}
+          max={thisWeeksTarget}
+          color="blue"
+          icon="chart-pie"
+          className="light-blue lighten-1"
+        />
+        <AdminCardComponent
+          title="Meta Del Mes"
+          comment=""
+          total={200}
+          max={1000}
+          color="grey"
+          icon="dollar-sign"
+          className="warning-color"
+        />
+      </MDBRow>
+    </div>
   );
+};
+AdminCardSection1.propTypes = {
+  thisWeeksSessions: propTypes.array,
+};
+AdminCardSection1.defaultProps = {
+  thisWeeksSessions: [{ id: 0, initialAmount: 0, finalAmount: 0 }],
 };
 
 export default AdminCardSection1;

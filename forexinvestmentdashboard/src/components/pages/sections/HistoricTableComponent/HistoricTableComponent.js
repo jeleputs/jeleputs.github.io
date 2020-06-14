@@ -1,20 +1,21 @@
-import { MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
+import { MDBBtn, MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
 
 import React from 'react';
 
 const HistoricTablesComponent = props => {
-  const { sessions } = props;
+  const { sessions, setSessionEditing } = props;
   return (
     <MDBTable>
       <MDBTableHead color="primary-color" textWhite>
         <tr>
-          <th>Session Id</th>
+          <th>Id</th>
           <th>Date</th>
           <th>Facilitator</th>
-          <th>Total before</th>
-          <th>Total after</th>
-          <th>Percentaje</th>
-          <th>Win/loss</th>
+          <th>Ttl. before</th>
+          <th>Ttl. after</th>
+          <th>%</th>
+          <th>Rat.</th>
+          <th>edit</th>
         </tr>
       </MDBTableHead>
       <MDBTableBody>
@@ -52,12 +53,22 @@ const HistoricTablesComponent = props => {
                       {session.transactions
                         .reduce(
                           (prev, curr) =>
-                            curr.won === true
+                            curr.isWon === true
                               ? [parseInt(prev[0]) + 1, prev[1]]
                               : [prev[0], parseInt(prev[1]) + 1],
                           [0, 0]
                         )
                         .join('/')}
+                    </td>
+                    <td>
+                      <MDBBtn
+                        size="sm"
+                        gradient="blue"
+                        onClick={() => {
+                          setSessionEditing(session.id);
+                        }}>
+                        Edit
+                      </MDBBtn>
                     </td>
                   </tr>
                 );
