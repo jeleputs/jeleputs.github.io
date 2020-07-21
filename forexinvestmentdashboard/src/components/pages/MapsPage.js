@@ -1,8 +1,6 @@
 import { MDBCard, MDBCardBody, MDBCol, MDBRow, MDBView } from 'mdbreact';
 import React, { Fragment } from 'react';
 
-import GoogleMapReact from 'google-map-react';
-
 const MapsPage = props => {
   const { sessions } = props;
   return (

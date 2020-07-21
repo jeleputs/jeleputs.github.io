@@ -22,8 +22,7 @@ const AddSessionComponent = props => {
     : Math.round(accountConfiguration.initialAmount * 100) / 100;
 
   const suggestedLot =
-    Math.round(initialAmount * accountConfiguration.suggestedLotSizes * 100) /
-    100;
+    Math.round(initialAmount * accountConfiguration.suggestedLotSizes) / 100;
 
   const now = new Date();
   const date = `${now.getFullYear()}-${(now.getMonth() + 1)

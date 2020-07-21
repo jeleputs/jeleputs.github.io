@@ -1,5 +1,14 @@
-import { MDBBtn, MDBInput, MDBSwitch } from 'mdbreact';
-import React, { useEffect, useState } from 'react';
+import {
+  MDBBtn,
+  MDBContainer,
+  MDBInput,
+  MDBModal,
+  MDBModalBody,
+  MDBModalFooter,
+  MDBModalHeader,
+  MDBSwitch,
+} from 'mdbreact';
+import React, { Fragment, useEffect, useState } from 'react';
 
 const AddSessionDetailsComponent = props => {
   const {
@@ -10,9 +19,10 @@ const AddSessionDetailsComponent = props => {
     catalogues,
   } = props;
 
-  const thisSession = [
-    ...sessions.filter(session => session.id === sessionEditing),
-  ][0];
+  const [showStopLossWarning, setShowStopLossWarning] = useState(false);
+  const [showSessionTargetWarning, setShowSessionTargetWarning] = useState(
+    false
+  );
 
   const [newTransaction, setNewTransaction] = useState({
     id: 0,
@@ -24,6 +34,10 @@ const AddSessionDetailsComponent = props => {
     notes: '',
     reasonOfLoss: 0,
   });
+
+  const thisSession = [
+    ...sessions.filter(session => session.id === sessionEditing),
+  ][0];
 
   const handlerUpdate = e => {
     setNewTransaction({
@@ -89,18 +103,50 @@ const AddSessionDetailsComponent = props => {
     ]);
   };
 
+  const togglePopUp = popUpName => {
+    switch (popUpName) {
+      case 'stopLoss':
+        setShowStopLossWarning(!showStopLossWarning);
+        break;
+      case 'sessionTarget':
+        setShowSessionTargetWarning(!showSessionTargetWarning);
+        break;
+      default:
+    }
+  };
   const editTransactionHandler = transaction => {
     setNewTransaction(transaction);
   };
 
-  useEffect(() => console.log('newTransaction', newTransaction), [
-    newTransaction,
-  ]);
+  useEffect(() => {
+    const earnedAlready = thisSession.transactions.reduce(
+      (prev, curr) => prev + curr.earnedAmount,
+      0
+    );
+
+    if (
+      thisSession.transactions.filter(transaction => transaction.isWon !== true)
+        .length >= accountConfiguration.stopLoss
+    ) {
+      setShowStopLossWarning(true);
+    } else {
+      setShowStopLossWarning(false);
+    }
+
+    if (
+      (earnedAlready * 100) / thisSession.initialAmount >=
+      accountConfiguration.sessionTarget
+    ) {
+      setShowSessionTargetWarning(true);
+    } else {
+      setShowSessionTargetWarning(false);
+    }
+  }, [thisSession]);
 
   useEffect(() => {
     const amount =
       Math.round(
-        accountConfiguration.suggestedLotSizes * thisSession.finalAmount * 100
+        accountConfiguration.suggestedLotSizes * thisSession.finalAmount
       ) / 100;
 
     const id =
@@ -125,119 +171,158 @@ const AddSessionDetailsComponent = props => {
     });
   }, [sessions]);
   return (
-    <table className="table">
-      <tbody>
-        <tr>
-          <td>
-            <MDBSwitch
-              name="isBuy"
-              checked={newTransaction.isBuy === true ? true : false}
-              onChange={handlerUpdateIsBuy}
-              labelLeft="sell"
-              labelRight="buy"
-            />
-          </td>
-          <td>
-            <MDBInput
-              name="amount"
-              label="Amount"
-              value={newTransaction.amount}
-              onChange={handlerUpdate}
-              data-type="double"
-              onFocus={e => e.target.select()}
-            />
-          </td>
-          <td>
-            <MDBInput
-              name="earnedAmount"
-              label="Earned"
-              value={newTransaction.earnedAmount}
-              onChange={handlerUpdate}
-              data-type="double"
-              onFocus={e => e.target.select()}
-            />
-          </td>
-          <td>
-            <MDBSwitch
-              name="isWon"
-              checked={newTransaction.isWon === true ? true : false}
-              onChange={handlerUpdateIsWon}
-              labelLeft="lost"
-              labelRight="won"
-            />
-          </td>
-          <td>
-            <select
-              name="reasonOfLoss"
-              className="browser-default custom-select"
-              onChange={handlerSelectUpdate}>
-              {catalogues.reasonsOfLoss.map(reason => (
-                <option key={reason.value} value={reason.value}>
-                  {reason.text}
-                </option>
-              ))}
-            </select>
-          </td>
-          <td>
-            <MDBInput
-              name="notes"
-              label="notes"
-              value={newTransaction.notes}
-              onChange={handlerUpdate}
-            />
-          </td>
-          <td>
-            <MDBBtn onClick={addTransactionHandler} size="sm" gradient="aqua">
-              Save
+    <Fragment>
+      <MDBContainer>
+        <MDBModal
+          isOpen={showStopLossWarning}
+          toggle={() => togglePopUp('stopLoss')}>
+          <MDBModalHeader toggle={() => togglePopUp('stopLoss')}>
+            Stop Loss hit
+          </MDBModalHeader>
+          <MDBModalBody>
+            You have hit your stop loss. Please stop trading until next session.
+          </MDBModalBody>
+          <MDBModalFooter>
+            <MDBBtn color="secondary" onClick={() => togglePopUp('stopLoss')}>
+              Close
             </MDBBtn>
-          </td>
-        </tr>
-        {thisSession.transactions.map((transaction, i) => (
-          <tr key={i}>
+          </MDBModalFooter>
+        </MDBModal>
+      </MDBContainer>
+      <MDBContainer>
+        <MDBModal
+          isOpen={showSessionTargetWarning}
+          toggle={() => togglePopUp('sessionTarget')}>
+          <MDBModalHeader toggle={() => togglePopUp('sessionTarget')}>
+            Session target reached
+          </MDBModalHeader>
+          <MDBModalBody>
+            You have reached your session's target. Please stop trading until
+            next session.
+          </MDBModalBody>
+          <MDBModalFooter>
+            <MDBBtn
+              color="secondary"
+              onClick={() => togglePopUp('sessionTarget')}>
+              Close
+            </MDBBtn>
+          </MDBModalFooter>
+        </MDBModal>
+      </MDBContainer>
+      <table className="table">
+        <tbody>
+          <tr>
             <td>
-              {transaction.isBuy ? (
-                <p>
-                  Buy <span className="text-success">↑</span>
-                </p>
-              ) : (
-                <p>
-                  Sell <span className="text-danger">↓</span>
-                </p>
-              )}
+              <MDBSwitch
+                name="isBuy"
+                checked={newTransaction.isBuy === true ? true : false}
+                onChange={handlerUpdateIsBuy}
+                labelLeft="sell"
+                labelRight="buy"
+              />
             </td>
-            <td>{transaction.amount}</td>
-            <td>{transaction.earnedAmount}</td>
             <td>
-              {transaction.isWon ? (
-                <span className="badge success-color badge-success-color badge-pill ">
-                  {'Won'}
-                </span>
-              ) : (
-                <span className="badge danger-color badge-danger-color badge-pill ">
-                  {'Lost'}
-                </span>
-              )}
+              <MDBInput
+                name="amount"
+                label="Amount"
+                value={newTransaction.amount}
+                onChange={handlerUpdate}
+                data-type="double"
+                onFocus={e => e.target.select()}
+              />
             </td>
             <td>
-              {transaction.reasonOfLoss
-                ? catalogues.reasonsOfLoss.filter(
-                    reason => reason.value === transaction.reasonOfLoss
-                  )[0].text
-                : catalogues.reasonsOfLoss[0].text}
+              <MDBInput
+                name="earnedAmount"
+                label="Earned"
+                value={newTransaction.earnedAmount}
+                onChange={handlerUpdate}
+                data-type="double"
+                onFocus={e => e.target.select()}
+              />
             </td>
-            <td>{transaction.notes}</td>
             <td>
-              <MDBBtn
-                onClick={() => editTransactionHandler(transaction)}
-                size="sm"
-                gradient="purple">
-                Edit
+              <MDBSwitch
+                name="isWon"
+                checked={newTransaction.isWon === true ? true : false}
+                onChange={handlerUpdateIsWon}
+                labelLeft="lost"
+                labelRight="won"
+              />
+            </td>
+            <td>
+              <select
+                name="reasonOfLoss"
+                className="browser-default custom-select"
+                onChange={handlerSelectUpdate}>
+                {catalogues.reasonsOfLoss.map(reason => (
+                  <option key={reason.value} value={reason.value}>
+                    {reason.text}
+                  </option>
+                ))}
+              </select>
+            </td>
+            <td>
+              <MDBInput
+                name="notes"
+                label="notes"
+                value={newTransaction.notes}
+                onChange={handlerUpdate}
+              />
+            </td>
+            <td>
+              <MDBBtn onClick={addTransactionHandler} size="sm" gradient="aqua">
+                Save
               </MDBBtn>
             </td>
           </tr>
-        ))}
-      </tbody>
-    </table>
+          {thisSession.transactions.map((transaction, i) => (
+            <tr key={i}>
+              <td>
+                {transaction.isBuy ? (
+                  <p>
+                    Buy <span className="text-success">↑</span>
+                  </p>
+                ) : (
+                  <p>
+                    Sell <span className="text-danger">↓</span>
+                  </p>
+                )}
+              </td>
+              <td>{transaction.amount}</td>
+              <td>{transaction.earnedAmount}</td>
+              <td>
+                {transaction.isWon ? (
+                  <span className="badge success-color badge-success-color badge-pill ">
+                    {'Won'}
+                  </span>
+                ) : (
+                  <span className="badge danger-color badge-danger-color badge-pill ">
+                    {'Lost'}
+                  </span>
+                )}
+              </td>
+              <td>
+                {transaction.reasonOfLoss
+                  ? catalogues.reasonsOfLoss.filter(
+                      reason => reason.value === transaction.reasonOfLoss
+                    )[0].text
+                  : catalogues.reasonsOfLoss[0].text}
+              </td>
+              <td>{transaction.notes}</td>
+              <td>
+                <MDBBtn
+                  onClick={() => editTransactionHandler(transaction)}
+                  size="sm"
+                  gradient="purple">
+                  Edit
+                </MDBBtn>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </Fragment>
   );
 };
 

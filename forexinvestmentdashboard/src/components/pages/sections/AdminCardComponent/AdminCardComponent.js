@@ -17,7 +17,7 @@ const AdminCardComponent = props => {
   } = props;
   const labelToDisplay = isNaN(label) ? label : `$${label.toFixed(2)}`;
   return (
-    <MDBCol xl="3" md="6" className="mb-r">
+    <MDBCol md="6" className="mb-4">
       <MDBCard className="cascading-admin-card">
         <div className="admin-up">
           <MDBIcon icon={icon} className={className} />
