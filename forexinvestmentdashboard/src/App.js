@@ -12,12 +12,12 @@ const App = () => {
   // eslint-disable-next-line no-unused-vars
   const [accountConfiguration, setAccountConfiguration] = useState({
     monthlyGoalPerc: 300,
-    weeklyGoalPerc: 30,
+    weeklyGoalPerc: 10,
     suggestedLotSizes: 1.5,
-    sessionTarget: 3.5,
+    sessionTarget: 2.5,
     stopLoss: 2,
     initialAmount: 100,
-    targetTransactionsPerWeek: 50,
+    targetTransactionsPerWeek: 20,
   });
 
   const catalogues = {
