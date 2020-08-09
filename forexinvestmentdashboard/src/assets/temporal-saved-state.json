@@ -1,0 +1,5250 @@
+[
+  {
+    "id": 91,
+    "isDeposit": false,
+    "dateTime": "2020-07-07 22:4:00",
+    "facilitator": "Hugo Gomez",
+    "initialAmount": 923.81,
+    "finalAmount": 95.80999999999995,
+    "suggestedLot": 13.86,
+    "transactions": [
+      {
+        "id": 423,
+        "isBuy": true,
+        "suggestedLot": 13.86,
+        "amount": 100,
+        "earnedAmount": 72,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 424,
+        "isBuy": false,
+        "suggestedLot": 14.94,
+        "amount": 400,
+        "earnedAmount": -400,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 425,
+        "isBuy": false,
+        "suggestedLot": 8.94,
+        "amount": 500,
+        "earnedAmount": -500,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "isDeposit": false,
+    "dateTime": "2020-07-07 8:53:00",
+    "facilitator": "Ric",
+    "initialAmount": 1433.81,
+    "finalAmount": 923.81,
+    "suggestedLot": 21.51,
+    "transactions": [
+      {
+        "id": 420,
+        "isBuy": false,
+        "suggestedLot": 21.51,
+        "amount": 140,
+        "earnedAmount": -140,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 421,
+        "isBuy": false,
+        "suggestedLot": 20.98,
+        "amount": 70,
+        "earnedAmount": -70,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 422,
+        "isBuy": false,
+        "suggestedLot": 19.93,
+        "amount": 300,
+        "earnedAmount": -300,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "isDeposit": false,
+    "dateTime": "2020-07-07 8:5:00",
+    "facilitator": "Hugo Gomez",
+    "initialAmount": 1737.61,
+    "finalAmount": 1433.81,
+    "suggestedLot": 26.06,
+    "transactions": [
+      {
+        "id": 412,
+        "isBuy": true,
+        "suggestedLot": 26.06,
+        "amount": 35,
+        "earnedAmount": -35,
+        "isWon": false,
+        "notes": "muy mala entrada",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 413,
+        "isBuy": false,
+        "suggestedLot": 25.54,
+        "amount": 70,
+        "earnedAmount": 51.8,
+        "isWon": true,
+        "notes": "usé el análisis que ya habían dado y entré una segunda vez a un menor tiempo (3 mins en vez de 5)",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 414,
+        "isBuy": false,
+        "suggestedLot": 26.32,
+        "amount": 105,
+        "earnedAmount": -105,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 415,
+        "isBuy": false,
+        "suggestedLot": 24.74,
+        "amount": 180,
+        "earnedAmount": -180,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 416,
+        "isBuy": false,
+        "suggestedLot": 22.04,
+        "amount": 720,
+        "earnedAmount": -720,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 417,
+        "isBuy": false,
+        "suggestedLot": 11.24,
+        "amount": 720,
+        "earnedAmount": 597.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 418,
+        "isBuy": true,
+        "suggestedLot": 20.21,
+        "amount": 35,
+        "earnedAmount": 28.7,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 419,
+        "isBuy": true,
+        "suggestedLot": 20.64,
+        "amount": 70,
+        "earnedAmount": 58.1,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "isDeposit": false,
+    "dateTime": "2020-07-07 7:11:00",
+    "facilitator": "Eddy Vera",
+    "initialAmount": 1764.41,
+    "finalAmount": 1737.6100000000001,
+    "suggestedLot": 26.47,
+    "transactions": [
+      {
+        "id": 409,
+        "isBuy": false,
+        "suggestedLot": 26.47,
+        "amount": 70,
+        "earnedAmount": -70,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 410,
+        "isBuy": false,
+        "suggestedLot": 25.42,
+        "amount": 90,
+        "earnedAmount": -90,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 411,
+        "isBuy": false,
+        "suggestedLot": 24.07,
+        "amount": 180,
+        "earnedAmount": 133.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "isDeposit": false,
+    "dateTime": "2020-07-07 0:16:00",
+    "facilitator": "Ric",
+    "initialAmount": 1750.61,
+    "finalAmount": 1764.4099999999999,
+    "suggestedLot": 26.26,
+    "transactions": [
+      {
+        "id": 407,
+        "isBuy": false,
+        "suggestedLot": 26.26,
+        "amount": 30,
+        "earnedAmount": -30,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 408,
+        "isBuy": false,
+        "suggestedLot": 25.81,
+        "amount": 60,
+        "earnedAmount": 43.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "isDeposit": false,
+    "dateTime": "2020-07-06 23:6:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 1671.11,
+    "finalAmount": 1750.61,
+    "suggestedLot": 25.07,
+    "transactions": [
+      {
+        "id": 403,
+        "isBuy": true,
+        "suggestedLot": 25.07,
+        "amount": 60,
+        "earnedAmount": 43.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 404,
+        "isBuy": true,
+        "suggestedLot": 25.72,
+        "amount": 30,
+        "earnedAmount": 21.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 405,
+        "isBuy": false,
+        "suggestedLot": 26.05,
+        "amount": 30,
+        "earnedAmount": -30,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 406,
+        "isBuy": false,
+        "suggestedLot": 25.6,
+        "amount": 60,
+        "earnedAmount": 43.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "isDeposit": false,
+    "dateTime": "2020-07-06 21:51:00",
+    "facilitator": "Hugo Gomez",
+    "initialAmount": 1640.51,
+    "finalAmount": 1671.11,
+    "suggestedLot": 24.61,
+    "transactions": [
+      {
+        "id": 399,
+        "isBuy": false,
+        "suggestedLot": 24.61,
+        "amount": 30,
+        "earnedAmount": -30,
+        "isWon": false,
+        "notes": "entré a lo idiota",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 400,
+        "isBuy": false,
+        "suggestedLot": 24.16,
+        "amount": 30,
+        "earnedAmount": -30,
+        "isWon": false,
+        "notes": "estoy descontrolado",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 401,
+        "isBuy": true,
+        "suggestedLot": 23.71,
+        "amount": 60,
+        "earnedAmount": 44.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 402,
+        "isBuy": false,
+        "suggestedLot": 24.37,
+        "amount": 60,
+        "earnedAmount": 46.2,
+        "isWon": true,
+        "notes": "entré en una tendencia lateral; esperé un mínimo y compré",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "isDeposit": false,
+    "dateTime": "2020-07-06 12:20:00",
+    "facilitator": "Silvia González",
+    "initialAmount": 1617.26,
+    "finalAmount": 1640.51,
+    "suggestedLot": 24.26,
+    "transactions": [
+      {
+        "id": 393,
+        "isBuy": true,
+        "suggestedLot": 24.26,
+        "amount": 25,
+        "earnedAmount": 22,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 394,
+        "isBuy": true,
+        "suggestedLot": 24.59,
+        "amount": 25,
+        "earnedAmount": -25,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 395,
+        "isBuy": true,
+        "suggestedLot": 24.21,
+        "amount": 25,
+        "earnedAmount": 19.5,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 396,
+        "isBuy": true,
+        "suggestedLot": 24.51,
+        "amount": 50,
+        "earnedAmount": 37,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 397,
+        "isBuy": true,
+        "suggestedLot": 25.06,
+        "amount": 50,
+        "earnedAmount": -50,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 398,
+        "isBuy": false,
+        "suggestedLot": 24.31,
+        "amount": 25,
+        "earnedAmount": 19.75,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "isDeposit": false,
+    "dateTime": "2020-07-06 11:50:00",
+    "facilitator": "Milly Millz",
+    "initialAmount": 1551.51,
+    "finalAmount": 1617.26,
+    "suggestedLot": 23.27,
+    "transactions": [
+      {
+        "id": 390,
+        "isBuy": false,
+        "suggestedLot": 23.27,
+        "amount": 25,
+        "earnedAmount": 21.75,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 391,
+        "isBuy": true,
+        "suggestedLot": 23.6,
+        "amount": 25,
+        "earnedAmount": 22,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 392,
+        "isBuy": true,
+        "suggestedLot": 23.93,
+        "amount": 25,
+        "earnedAmount": 22,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "isDeposit": false,
+    "dateTime": "2020-07-06 8:12:00",
+    "facilitator": "Hugo Gomez",
+    "initialAmount": 1619.16,
+    "finalAmount": 1551.51,
+    "suggestedLot": 24.29,
+    "transactions": [
+      {
+        "id": 386,
+        "isBuy": false,
+        "suggestedLot": 24.29,
+        "amount": 70,
+        "earnedAmount": -70,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 387,
+        "isBuy": false,
+        "suggestedLot": 23.24,
+        "amount": 35,
+        "earnedAmount": 31.15,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 388,
+        "isBuy": false,
+        "suggestedLot": 23.7,
+        "amount": 20,
+        "earnedAmount": 16.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 389,
+        "isBuy": false,
+        "suggestedLot": 23.95,
+        "amount": 45,
+        "earnedAmount": -45,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "isDeposit": false,
+    "dateTime": "2020-07-05 23:1:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 1598.06,
+    "finalAmount": 1619.1599999999999,
+    "suggestedLot": 23.97,
+    "transactions": [
+      {
+        "id": 383,
+        "isBuy": false,
+        "suggestedLot": 23.97,
+        "amount": 30,
+        "earnedAmount": 23.1,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 384,
+        "isBuy": false,
+        "suggestedLot": 24.32,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 385,
+        "isBuy": false,
+        "suggestedLot": 24.3,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "isDeposit": true,
+    "dateTime": "2020-07-05 21:18:00",
+    "facilitator": "Bank Transaction",
+    "initialAmount": 1098.06,
+    "finalAmount": 1598.06,
+    "suggestedLot": 16.47,
+    "transactions": []
+  },
+  {
+    "id": 79,
+    "isDeposit": false,
+    "dateTime": "2020-07-01 7:56:00",
+    "facilitator": "Hugo Gomez",
+    "initialAmount": 809.46,
+    "finalAmount": 1098.06,
+    "suggestedLot": 12.14,
+    "transactions": [
+      {
+        "id": 380,
+        "isBuy": false,
+        "suggestedLot": 12.14,
+        "amount": 180,
+        "earnedAmount": 149.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 381,
+        "isBuy": false,
+        "suggestedLot": 14.38,
+        "amount": 120,
+        "earnedAmount": -10.2,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 382,
+        "isBuy": false,
+        "suggestedLot": 14.23,
+        "amount": 180,
+        "earnedAmount": 149.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "isDeposit": false,
+    "dateTime": "2020-07-01 7:8:00",
+    "facilitator": "Eddy Vera",
+    "initialAmount": 953.97,
+    "finalAmount": 809.46,
+    "suggestedLot": 14.31,
+    "transactions": [
+      {
+        "id": 371,
+        "isBuy": false,
+        "suggestedLot": 14.31,
+        "amount": 3,
+        "earnedAmount": 2.49,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 372,
+        "isBuy": true,
+        "suggestedLot": 14.35,
+        "amount": 60,
+        "earnedAmount": 13.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 373,
+        "isBuy": false,
+        "suggestedLot": 14.54,
+        "amount": 30,
+        "earnedAmount": 24.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 374,
+        "isBuy": false,
+        "suggestedLot": 14.92,
+        "amount": 60,
+        "earnedAmount": 49.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 375,
+        "isBuy": false,
+        "suggestedLot": 15.67,
+        "amount": 60,
+        "earnedAmount": -60,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 376,
+        "isBuy": false,
+        "suggestedLot": 14.77,
+        "amount": 20,
+        "earnedAmount": 24.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 377,
+        "isBuy": false,
+        "suggestedLot": 15.14,
+        "amount": 30,
+        "earnedAmount": -30,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 378,
+        "isBuy": false,
+        "suggestedLot": 14.69,
+        "amount": 60,
+        "earnedAmount": -60,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 379,
+        "isBuy": false,
+        "suggestedLot": 13.79,
+        "amount": 109.8,
+        "earnedAmount": -109.8,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 4
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "isDeposit": false,
+    "dateTime": "2020-07-01 0:15:00",
+    "facilitator": "Maratón Español",
+    "initialAmount": 938.01,
+    "finalAmount": 953.97,
+    "suggestedLot": 14.07,
+    "transactions": [
+      {
+        "id": 364,
+        "isBuy": false,
+        "suggestedLot": 14.07,
+        "amount": 0,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 365,
+        "isBuy": false,
+        "suggestedLot": 13.76,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 366,
+        "isBuy": true,
+        "suggestedLot": 13.46,
+        "amount": 20,
+        "earnedAmount": 16.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 367,
+        "isBuy": true,
+        "suggestedLot": 13.71,
+        "amount": 20,
+        "earnedAmount": 17.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 368,
+        "isBuy": false,
+        "suggestedLot": 13.97,
+        "amount": 80,
+        "earnedAmount": -5.2,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 369,
+        "isBuy": false,
+        "suggestedLot": 13.89,
+        "amount": 3,
+        "earnedAmount": 2.61,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 370,
+        "isBuy": true,
+        "suggestedLot": 13.93,
+        "amount": 5,
+        "earnedAmount": 4.35,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "isDeposit": false,
+    "dateTime": "2020-06-30 21:41:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 959.01,
+    "finalAmount": 938.01,
+    "suggestedLot": 14.39,
+    "transactions": [
+      {
+        "id": 361,
+        "isBuy": false,
+        "suggestedLot": 14.39,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 362,
+        "isBuy": false,
+        "suggestedLot": 14.4,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 363,
+        "isBuy": false,
+        "suggestedLot": 14.52,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "isDeposit": false,
+    "dateTime": "2020-06-30 11:55:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 941.77,
+    "finalAmount": 959.01,
+    "suggestedLot": 14.13,
+    "transactions": [
+      {
+        "id": 359,
+        "isBuy": false,
+        "suggestedLot": 14.13,
+        "amount": 20,
+        "earnedAmount": 17.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 360,
+        "isBuy": false,
+        "suggestedLot": 14.39,
+        "amount": 6,
+        "earnedAmount": -0.36,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "isDeposit": false,
+    "dateTime": "2020-06-30 10:0:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 928.37,
+    "finalAmount": 941.77,
+    "suggestedLot": 13.93,
+    "transactions": [
+      {
+        "id": 354,
+        "isBuy": false,
+        "suggestedLot": 13.93,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 355,
+        "isBuy": false,
+        "suggestedLot": 13.63,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 356,
+        "isBuy": false,
+        "suggestedLot": 13.33,
+        "amount": 20,
+        "earnedAmount": 17.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 7
+      },
+      {
+        "id": 357,
+        "isBuy": false,
+        "suggestedLot": 13.59,
+        "amount": 20,
+        "earnedAmount": 17.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 358,
+        "isBuy": false,
+        "suggestedLot": 13.86,
+        "amount": 20,
+        "earnedAmount": 17.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "isDeposit": false,
+    "dateTime": "2020-06-30 9:17:00",
+    "facilitator": "Daniel Lopez",
+    "initialAmount": 860.37,
+    "finalAmount": 928.37,
+    "suggestedLot": 12.91,
+    "transactions": [
+      {
+        "id": 351,
+        "isBuy": false,
+        "suggestedLot": 12.91,
+        "amount": 40,
+        "earnedAmount": 35.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 352,
+        "isBuy": false,
+        "suggestedLot": 13.43,
+        "amount": 20,
+        "earnedAmount": 17.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 353,
+        "isBuy": false,
+        "suggestedLot": 13.7,
+        "amount": 60,
+        "earnedAmount": 15.2,
+        "isWon": true,
+        "notes": "súper cardiaca, gané en el último segundo",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "isDeposit": false,
+    "dateTime": "2020-06-30 7:56:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 817.12,
+    "finalAmount": 860.37,
+    "suggestedLot": 12.26,
+    "transactions": [
+      {
+        "id": 342,
+        "isBuy": false,
+        "suggestedLot": 12.26,
+        "amount": 20,
+        "earnedAmount": 15,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 343,
+        "isBuy": false,
+        "suggestedLot": 12.48,
+        "amount": 15,
+        "earnedAmount": 11.25,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 344,
+        "isBuy": false,
+        "suggestedLot": 12.65,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 345,
+        "isBuy": false,
+        "suggestedLot": 12.64,
+        "amount": 5,
+        "earnedAmount": 3.75,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 346,
+        "isBuy": false,
+        "suggestedLot": 12.69,
+        "amount": 15,
+        "earnedAmount": 11.25,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 347,
+        "isBuy": false,
+        "suggestedLot": 12.86,
+        "amount": 7,
+        "earnedAmount": -7,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 348,
+        "isBuy": false,
+        "suggestedLot": 12.76,
+        "amount": 10,
+        "earnedAmount": 7.5,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 349,
+        "isBuy": false,
+        "suggestedLot": 12.87,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 350,
+        "isBuy": false,
+        "suggestedLot": 12.57,
+        "amount": 30,
+        "earnedAmount": 22.5,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "isDeposit": false,
+    "dateTime": "2020-06-29 23:34:00",
+    "facilitator": "Silvia Gonzalez",
+    "initialAmount": 770.07,
+    "finalAmount": 817.12,
+    "suggestedLot": 11.55,
+    "transactions": [
+      {
+        "id": 340,
+        "isBuy": true,
+        "suggestedLot": 11.55,
+        "amount": 15,
+        "earnedAmount": 11.85,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 341,
+        "isBuy": false,
+        "suggestedLot": 11.73,
+        "amount": 40,
+        "earnedAmount": 35.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "isDeposit": false,
+    "dateTime": "2020-06-28 23:3:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 811.66,
+    "finalAmount": 770.0699999999999,
+    "suggestedLot": 12.17,
+    "transactions": [
+      {
+        "id": 333,
+        "isBuy": true,
+        "suggestedLot": 12.17,
+        "amount": 2,
+        "earnedAmount": -0.16,
+        "isWon": false,
+        "notes": "entered too late",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 334,
+        "isBuy": false,
+        "suggestedLot": 12.17,
+        "amount": 15,
+        "earnedAmount": -6.03,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 335,
+        "isBuy": false,
+        "suggestedLot": 12.08,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 336,
+        "isBuy": false,
+        "suggestedLot": 12.04,
+        "amount": 15,
+        "earnedAmount": -15,
+        "isWon": false,
+        "notes": "supe soportar la presión de haber perdido 3 anteriores y entré sólo el monto necesario ",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 337,
+        "isBuy": false,
+        "suggestedLot": 11.81,
+        "amount": 15,
+        "earnedAmount": 12.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 338,
+        "isBuy": false,
+        "suggestedLot": 12,
+        "amount": 15,
+        "earnedAmount": -15,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 339,
+        "isBuy": false,
+        "suggestedLot": 11.78,
+        "amount": 15,
+        "earnedAmount": -15,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "isDeposit": false,
+    "dateTime": "2020-06-25 10:47:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 776.99,
+    "finalAmount": 811.66,
+    "suggestedLot": 11.65,
+    "transactions": [
+      {
+        "id": 330,
+        "isBuy": true,
+        "suggestedLot": 11.65,
+        "amount": 20,
+        "earnedAmount": 17.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 331,
+        "isBuy": true,
+        "suggestedLot": 11.92,
+        "amount": 1,
+        "earnedAmount": 0.87,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 332,
+        "isBuy": false,
+        "suggestedLot": 11.93,
+        "amount": 20,
+        "earnedAmount": 16.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "isDeposit": false,
+    "dateTime": "2020-06-23 7:5:00",
+    "facilitator": "Eddy Vera",
+    "initialAmount": 946.11,
+    "finalAmount": 776.99,
+    "suggestedLot": 14.19,
+    "transactions": [
+      {
+        "id": 323,
+        "isBuy": false,
+        "suggestedLot": 14.19,
+        "amount": 5,
+        "earnedAmount": -5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 324,
+        "isBuy": true,
+        "suggestedLot": 14.12,
+        "amount": 1,
+        "earnedAmount": 0.78,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 325,
+        "isBuy": true,
+        "suggestedLot": 14.13,
+        "amount": 5,
+        "earnedAmount": 3.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 326,
+        "isBuy": false,
+        "suggestedLot": 14.19,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 327,
+        "isBuy": true,
+        "suggestedLot": 13.89,
+        "amount": 60,
+        "earnedAmount": -60,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 328,
+        "isBuy": false,
+        "suggestedLot": 12.99,
+        "amount": 40,
+        "earnedAmount": 31.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 329,
+        "isBuy": false,
+        "suggestedLot": 13.45,
+        "amount": 120,
+        "earnedAmount": -120,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "isDeposit": false,
+    "dateTime": "2020-06-23 2:7:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 909.38,
+    "finalAmount": 946.11,
+    "suggestedLot": 13.64,
+    "transactions": [
+      {
+        "id": 312,
+        "isBuy": false,
+        "suggestedLot": 13.64,
+        "amount": 1,
+        "earnedAmount": 0.75,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 313,
+        "isBuy": false,
+        "suggestedLot": 13.65,
+        "amount": 20,
+        "earnedAmount": 15.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 314,
+        "isBuy": false,
+        "suggestedLot": 13.89,
+        "amount": 20,
+        "earnedAmount": 15.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 315,
+        "isBuy": true,
+        "suggestedLot": 14.12,
+        "amount": 5,
+        "earnedAmount": 3.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 316,
+        "isBuy": false,
+        "suggestedLot": 14.18,
+        "amount": 9,
+        "earnedAmount": -9,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 317,
+        "isBuy": false,
+        "suggestedLot": 14.04,
+        "amount": 3,
+        "earnedAmount": 2.34,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 318,
+        "isBuy": true,
+        "suggestedLot": 14.08,
+        "amount": 40,
+        "earnedAmount": 31.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 319,
+        "isBuy": false,
+        "suggestedLot": 14.55,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 320,
+        "isBuy": false,
+        "suggestedLot": 14.25,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 321,
+        "isBuy": true,
+        "suggestedLot": 14.2,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 322,
+        "isBuy": true,
+        "suggestedLot": 14.16,
+        "amount": 3,
+        "earnedAmount": 2.34,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "isDeposit": false,
+    "dateTime": "2020-06-23 0:9:00",
+    "facilitator": "Gianvictor Cueva",
+    "initialAmount": 909.13,
+    "finalAmount": 909.38,
+    "suggestedLot": 13.64,
+    "transactions": [
+      {
+        "id": 306,
+        "isBuy": true,
+        "suggestedLot": 13.64,
+        "amount": 60,
+        "earnedAmount": 45,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 307,
+        "isBuy": false,
+        "suggestedLot": 14.31,
+        "amount": 20,
+        "earnedAmount": -14.75,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 308,
+        "isBuy": true,
+        "suggestedLot": 14.09,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 309,
+        "isBuy": true,
+        "suggestedLot": 13.79,
+        "amount": 20,
+        "earnedAmount": 15,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 310,
+        "isBuy": false,
+        "suggestedLot": 14.02,
+        "amount": 20,
+        "earnedAmount": 15,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 311,
+        "isBuy": false,
+        "suggestedLot": 14.24,
+        "amount": 40,
+        "earnedAmount": -40,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "isDeposit": false,
+    "dateTime": "2020-06-22 23:21:00",
+    "facilitator": "Silvia Gonzalez",
+    "initialAmount": 970.28,
+    "finalAmount": 909.13,
+    "suggestedLot": 14.55,
+    "transactions": [
+      {
+        "id": 301,
+        "isBuy": false,
+        "suggestedLot": 14.55,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 302,
+        "isBuy": false,
+        "suggestedLot": 14.25,
+        "amount": 60,
+        "earnedAmount": -40,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 303,
+        "isBuy": true,
+        "suggestedLot": 13.65,
+        "amount": 5,
+        "earnedAmount": 3.25,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 304,
+        "isBuy": false,
+        "suggestedLot": 13.7,
+        "amount": 20,
+        "earnedAmount": 15.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 305,
+        "isBuy": false,
+        "suggestedLot": 13.94,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "isDeposit": false,
+    "dateTime": "2020-06-22 1:2:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 1027.91,
+    "finalAmount": 970.2800000000001,
+    "suggestedLot": 15.42,
+    "transactions": [
+      {
+        "id": 296,
+        "isBuy": true,
+        "suggestedLot": 15.42,
+        "amount": 60,
+        "earnedAmount": -59.35,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 297,
+        "isBuy": true,
+        "suggestedLot": 14.52,
+        "amount": 18,
+        "earnedAmount": 6.92,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 298,
+        "isBuy": false,
+        "suggestedLot": 14.63,
+        "amount": 20,
+        "earnedAmount": 17.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 299,
+        "isBuy": false,
+        "suggestedLot": 14.89,
+        "amount": 20,
+        "earnedAmount": 17.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 300,
+        "isBuy": false,
+        "suggestedLot": 15.15,
+        "amount": 40,
+        "earnedAmount": -40,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "isDeposit": false,
+    "dateTime": "2020-06-22 0:58:00",
+    "facilitator": "Ric",
+    "initialAmount": 1051.91,
+    "finalAmount": 1027.91,
+    "suggestedLot": 15.78,
+    "transactions": [
+      {
+        "id": 293,
+        "isBuy": false,
+        "suggestedLot": 15.78,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 294,
+        "isBuy": true,
+        "suggestedLot": 15.73,
+        "amount": 9,
+        "earnedAmount": -9,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 295,
+        "isBuy": true,
+        "suggestedLot": 15.6,
+        "amount": 12,
+        "earnedAmount": -12,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "isDeposit": false,
+    "dateTime": "2020-06-19 1:14:00",
+    "facilitator": "Ric",
+    "initialAmount": 1039.91,
+    "finalAmount": 1051.91,
+    "suggestedLot": 15.6,
+    "transactions": [
+      {
+        "id": 288,
+        "isBuy": false,
+        "suggestedLot": 15.6,
+        "amount": 12,
+        "earnedAmount": 9.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 289,
+        "isBuy": false,
+        "suggestedLot": 15.74,
+        "amount": 9,
+        "earnedAmount": -9,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 290,
+        "isBuy": false,
+        "suggestedLot": 15.61,
+        "amount": 12,
+        "earnedAmount": 9.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 291,
+        "isBuy": false,
+        "suggestedLot": 15.75,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 292,
+        "isBuy": false,
+        "suggestedLot": 15.71,
+        "amount": 6,
+        "earnedAmount": 4.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "isDeposit": false,
+    "dateTime": "2020-06-19 0:11:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 1005.41,
+    "finalAmount": 1039.9099999999999,
+    "suggestedLot": 15.08,
+    "transactions": [
+      {
+        "id": 283,
+        "isBuy": false,
+        "suggestedLot": 15.08,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 284,
+        "isBuy": true,
+        "suggestedLot": 15.07,
+        "amount": 20,
+        "earnedAmount": 0,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 285,
+        "isBuy": false,
+        "suggestedLot": 15.07,
+        "amount": 20,
+        "earnedAmount": 15.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 286,
+        "isBuy": false,
+        "suggestedLot": 15.3,
+        "amount": 20,
+        "earnedAmount": 15.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 287,
+        "isBuy": false,
+        "suggestedLot": 15.54,
+        "amount": 5,
+        "earnedAmount": 3.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "isDeposit": false,
+    "dateTime": "2020-06-18 23:12:00",
+    "facilitator": "Silvia Gonzalez",
+    "initialAmount": 961.91,
+    "finalAmount": 1005.41,
+    "suggestedLot": 14.43,
+    "transactions": [
+      {
+        "id": 275,
+        "isBuy": false,
+        "suggestedLot": 14.43,
+        "amount": 1,
+        "earnedAmount": 0.75,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 276,
+        "isBuy": false,
+        "suggestedLot": 14.44,
+        "amount": 5,
+        "earnedAmount": 3.75,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 277,
+        "isBuy": false,
+        "suggestedLot": 14.5,
+        "amount": 20,
+        "earnedAmount": 15.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 278,
+        "isBuy": false,
+        "suggestedLot": 14.73,
+        "amount": 60,
+        "earnedAmount": 9.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 279,
+        "isBuy": false,
+        "suggestedLot": 14.87,
+        "amount": 20,
+        "earnedAmount": 14.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 280,
+        "isBuy": false,
+        "suggestedLot": 15.09,
+        "amount": 80,
+        "earnedAmount": -10.4,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 281,
+        "isBuy": false,
+        "suggestedLot": 14.94,
+        "amount": 40,
+        "earnedAmount": 29.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 282,
+        "isBuy": false,
+        "suggestedLot": 15.38,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "isDeposit": false,
+    "dateTime": "2020-06-18 22:14:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 943.39,
+    "finalAmount": 961.91,
+    "suggestedLot": 14.15,
+    "transactions": [
+      {
+        "id": 267,
+        "isBuy": false,
+        "suggestedLot": 14.15,
+        "amount": 1,
+        "earnedAmount": 0.66,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 268,
+        "isBuy": false,
+        "suggestedLot": 14.16,
+        "amount": 1,
+        "earnedAmount": 0.66,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 269,
+        "isBuy": true,
+        "suggestedLot": 14.17,
+        "amount": 3,
+        "earnedAmount": 2.22,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 270,
+        "isBuy": true,
+        "suggestedLot": 14.2,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 271,
+        "isBuy": true,
+        "suggestedLot": 14.16,
+        "amount": 16,
+        "earnedAmount": -16,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 272,
+        "isBuy": true,
+        "suggestedLot": 13.92,
+        "amount": 25,
+        "earnedAmount": 18.5,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 273,
+        "isBuy": true,
+        "suggestedLot": 14.2,
+        "amount": 3,
+        "earnedAmount": 0.48,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 274,
+        "isBuy": false,
+        "suggestedLot": 14.2,
+        "amount": 20,
+        "earnedAmount": 15,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "isDeposit": false,
+    "dateTime": "2020-06-18 12:11:00",
+    "facilitator": "Daniel Lopez",
+    "initialAmount": 931.99,
+    "finalAmount": 943.39,
+    "suggestedLot": 13.98,
+    "transactions": [
+      {
+        "id": 266,
+        "isBuy": false,
+        "suggestedLot": 13.98,
+        "amount": 15,
+        "earnedAmount": 11.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "isDeposit": false,
+    "dateTime": "2020-06-18 10:20:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 862.06,
+    "finalAmount": 931.99,
+    "suggestedLot": 12.93,
+    "transactions": [
+      {
+        "id": 260,
+        "isBuy": false,
+        "suggestedLot": 12.93,
+        "amount": 15,
+        "earnedAmount": 11.55,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 261,
+        "isBuy": false,
+        "suggestedLot": 13.1,
+        "amount": 14,
+        "earnedAmount": 10.92,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 262,
+        "isBuy": false,
+        "suggestedLot": 13.27,
+        "amount": 14,
+        "earnedAmount": 10.78,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 263,
+        "isBuy": false,
+        "suggestedLot": 13.43,
+        "amount": 28,
+        "earnedAmount": -3.22,
+        "isWon": false,
+        "notes": "debí de entrar a 3 o 4 minutos, no a 5 =( ",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 264,
+        "isBuy": false,
+        "suggestedLot": 13.38,
+        "amount": 28,
+        "earnedAmount": -3.22,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 265,
+        "isBuy": false,
+        "suggestedLot": 13.33,
+        "amount": 56,
+        "earnedAmount": 43.12,
+        "isWon": true,
+        "notes": "entrada buenísima!",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "isDeposit": false,
+    "dateTime": "2020-06-18 9:41:00",
+    "facilitator": "Daniel Lopez",
+    "initialAmount": 856.36,
+    "finalAmount": 862.0600000000001,
+    "suggestedLot": 12.85,
+    "transactions": [
+      {
+        "id": 257,
+        "isBuy": false,
+        "suggestedLot": 12.85,
+        "amount": 6,
+        "earnedAmount": 1.08,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 258,
+        "isBuy": false,
+        "suggestedLot": 12.86,
+        "amount": 3,
+        "earnedAmount": 2.31,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 259,
+        "isBuy": true,
+        "suggestedLot": 12.9,
+        "amount": 3,
+        "earnedAmount": 2.31,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "isDeposit": false,
+    "dateTime": "2020-06-18 1:12:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 856.36,
+    "finalAmount": 856.36,
+    "suggestedLot": 12.85,
+    "transactions": []
+  },
+  {
+    "id": 54,
+    "isDeposit": false,
+    "dateTime": "2020-06-18 0:15:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 825.8,
+    "finalAmount": 856.3599999999999,
+    "suggestedLot": 12.39,
+    "transactions": [
+      {
+        "id": 249,
+        "isBuy": false,
+        "suggestedLot": 12.39,
+        "amount": 14,
+        "earnedAmount": 11.48,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 250,
+        "isBuy": false,
+        "suggestedLot": 12.56,
+        "amount": 14,
+        "earnedAmount": -14,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 251,
+        "isBuy": true,
+        "suggestedLot": 12.35,
+        "amount": 16,
+        "earnedAmount": 13.12,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 252,
+        "isBuy": true,
+        "suggestedLot": 12.55,
+        "amount": 16,
+        "earnedAmount": 13.12,
+        "isWon": true,
+        "notes": "waited for a better entry point and entered on it at two more minutes",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 253,
+        "isBuy": false,
+        "suggestedLot": 12.74,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "hice un análisis propio de bandera y esperé al pullback, pero en vez de hacer pullback, hizo retroceso y se regresó completamente hasta el otro lado =( ",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 254,
+        "isBuy": false,
+        "suggestedLot": 12.73,
+        "amount": 2,
+        "earnedAmount": -1.18,
+        "isWon": false,
+        "notes": "hice un análisis propio de bandera y esperé al pullback, pero en vez de hacer pullback, hizo retroceso y se regresó completamente hasta el otro lado =( entré con un tip y recuperé un dollar",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 255,
+        "isBuy": false,
+        "suggestedLot": 12.71,
+        "amount": 1,
+        "earnedAmount": 0.82,
+        "isWon": true,
+        "notes": "buena entrada por mi mismo",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 256,
+        "isBuy": false,
+        "suggestedLot": 12.72,
+        "amount": 10,
+        "earnedAmount": 8.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "isDeposit": false,
+    "dateTime": "2020-06-17 23:8:00",
+    "facilitator": "Silvia Gonzalez",
+    "initialAmount": 803.7,
+    "finalAmount": 825.8000000000001,
+    "suggestedLot": 12.06,
+    "transactions": [
+      {
+        "id": 248,
+        "isBuy": true,
+        "suggestedLot": 12.06,
+        "amount": 26,
+        "earnedAmount": 22.1,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "isDeposit": false,
+    "dateTime": "2020-06-17 22:14:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 778.5,
+    "finalAmount": 803.7,
+    "suggestedLot": 11.68,
+    "transactions": [
+      {
+        "id": 246,
+        "isBuy": false,
+        "suggestedLot": 11.68,
+        "amount": 24,
+        "earnedAmount": 16.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 247,
+        "isBuy": false,
+        "suggestedLot": 11.93,
+        "amount": 12,
+        "earnedAmount": 8.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "isDeposit": false,
+    "dateTime": "2020-06-17 11:29:00",
+    "facilitator": "Ric",
+    "initialAmount": 802.5,
+    "finalAmount": 778.5,
+    "suggestedLot": 12.04,
+    "transactions": [
+      {
+        "id": 245,
+        "isBuy": false,
+        "suggestedLot": 12.04,
+        "amount": 24,
+        "earnedAmount": -24,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "isDeposit": false,
+    "dateTime": "2020-06-17 8:7:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 781.34,
+    "finalAmount": 802.5,
+    "suggestedLot": 11.72,
+    "transactions": [
+      {
+        "id": 240,
+        "isBuy": false,
+        "suggestedLot": 11.72,
+        "amount": 15,
+        "earnedAmount": 13.06,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 241,
+        "isBuy": false,
+        "suggestedLot": 11.92,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "entré a 1 min, en vez de a 5 ",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 242,
+        "isBuy": true,
+        "suggestedLot": 11.87,
+        "amount": 15,
+        "earnedAmount": -15,
+        "isWon": false,
+        "notes": "No esperé al pull back ",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 243,
+        "isBuy": true,
+        "suggestedLot": 11.65,
+        "amount": 25,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "no esperé al pullback",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 244,
+        "isBuy": true,
+        "suggestedLot": 11.65,
+        "amount": 30,
+        "earnedAmount": 26.1,
+        "isWon": true,
+        "notes": "entré ahora sí, después del pullback",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "isDeposit": false,
+    "dateTime": "2020-06-17 0:20:00",
+    "facilitator": "Maratón Español",
+    "initialAmount": 728.74,
+    "finalAmount": 781.34,
+    "suggestedLot": 10.93,
+    "transactions": [
+      {
+        "id": 230,
+        "isBuy": false,
+        "suggestedLot": 10.93,
+        "amount": 15,
+        "earnedAmount": 13.05,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 231,
+        "isBuy": false,
+        "suggestedLot": 11.13,
+        "amount": 15,
+        "earnedAmount": 13.05,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 232,
+        "isBuy": false,
+        "suggestedLot": 11.32,
+        "amount": 16,
+        "earnedAmount": 14.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 233,
+        "isBuy": false,
+        "suggestedLot": 11.54,
+        "amount": 15,
+        "earnedAmount": -15,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 234,
+        "isBuy": true,
+        "suggestedLot": 11.32,
+        "amount": 16,
+        "earnedAmount": 11.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 235,
+        "isBuy": false,
+        "suggestedLot": 11.49,
+        "amount": 5,
+        "earnedAmount": 4.35,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 236,
+        "isBuy": false,
+        "suggestedLot": 11.56,
+        "amount": 5,
+        "earnedAmount": 4.35,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 237,
+        "isBuy": true,
+        "suggestedLot": 11.62,
+        "amount": 15,
+        "earnedAmount": 12.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 238,
+        "isBuy": false,
+        "suggestedLot": 11.81,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 239,
+        "isBuy": false,
+        "suggestedLot": 11.77,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 4
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "isDeposit": false,
+    "dateTime": "2020-06-16 23:8:00",
+    "facilitator": "Daniel Lopez",
+    "initialAmount": 719.29,
+    "finalAmount": 728.74,
+    "suggestedLot": 10.79,
+    "transactions": [
+      {
+        "id": 227,
+        "isBuy": false,
+        "suggestedLot": 10.79,
+        "amount": 15,
+        "earnedAmount": 11.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 228,
+        "isBuy": false,
+        "suggestedLot": 10.96,
+        "amount": 15,
+        "earnedAmount": -15,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 229,
+        "isBuy": false,
+        "suggestedLot": 10.74,
+        "amount": 15,
+        "earnedAmount": 13.05,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "isDeposit": false,
+    "dateTime": "2020-06-16 0:48:00",
+    "facilitator": "Gianvictor Cueva",
+    "initialAmount": 798.79,
+    "finalAmount": 719.29,
+    "suggestedLot": 11.98,
+    "transactions": [
+      {
+        "id": 223,
+        "isBuy": false,
+        "suggestedLot": 11.98,
+        "amount": 25,
+        "earnedAmount": 20.5,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 224,
+        "isBuy": false,
+        "suggestedLot": 12.29,
+        "amount": 25,
+        "earnedAmount": -25,
+        "isWon": false,
+        "notes": "Entré con $25 dlls porque en la anterior entré tmb con $25 dlls y creí que podía \"soportar\" esa pérdida, pero no lo logré y me empecé a sentir muy mal.",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 225,
+        "isBuy": true,
+        "suggestedLot": 11.91,
+        "amount": 25,
+        "earnedAmount": -25,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 226,
+        "isBuy": true,
+        "suggestedLot": 11.54,
+        "amount": 50,
+        "earnedAmount": -50,
+        "isWon": false,
+        "notes": "Todo empezó porque entré con $25 dlls a laprimera operación y entónces quise seguir usando ese lote. ERROR!!! porque en esta última quise \"componer\" las perdidas pasadas y terminé perdiendo el dóble.",
+        "reasonOfLoss": 4
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "isDeposit": false,
+    "dateTime": "2020-06-15 22:12:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 748.54,
+    "finalAmount": 798.79,
+    "suggestedLot": 11.23,
+    "transactions": [
+      {
+        "id": 218,
+        "isBuy": false,
+        "suggestedLot": 11.23,
+        "amount": 10,
+        "earnedAmount": 7.5,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 219,
+        "isBuy": true,
+        "suggestedLot": 11.34,
+        "amount": 20,
+        "earnedAmount": 15,
+        "isWon": true,
+        "notes": "mala entrada, pero el mercado reaccionó con fuerza",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 220,
+        "isBuy": true,
+        "suggestedLot": 11.57,
+        "amount": 20,
+        "earnedAmount": 18.75,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 221,
+        "isBuy": true,
+        "suggestedLot": 11.85,
+        "amount": 20,
+        "earnedAmount": 19,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 222,
+        "isBuy": false,
+        "suggestedLot": 12.13,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "isDeposit": false,
+    "dateTime": "2020-06-15 11:16:00",
+    "facilitator": "Milly Millz",
+    "initialAmount": 732.32,
+    "finalAmount": 748.5400000000001,
+    "suggestedLot": 10.98,
+    "transactions": [
+      {
+        "id": 211,
+        "isBuy": false,
+        "suggestedLot": 10.98,
+        "amount": 9,
+        "earnedAmount": -9,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 212,
+        "isBuy": false,
+        "suggestedLot": 10.85,
+        "amount": 8,
+        "earnedAmount": -8,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 213,
+        "isBuy": false,
+        "suggestedLot": 10.73,
+        "amount": 8,
+        "earnedAmount": 6.16,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 214,
+        "isBuy": false,
+        "suggestedLot": 10.82,
+        "amount": 24,
+        "earnedAmount": -24,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 215,
+        "isBuy": false,
+        "suggestedLot": 10.46,
+        "amount": 30,
+        "earnedAmount": 23.1,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 216,
+        "isBuy": true,
+        "suggestedLot": 10.81,
+        "amount": 9,
+        "earnedAmount": -9,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 217,
+        "isBuy": false,
+        "suggestedLot": 10.67,
+        "amount": 48,
+        "earnedAmount": 36.96,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "isDeposit": false,
+    "dateTime": "2020-06-15 10:51:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 727.3,
+    "finalAmount": 732.3199999999999,
+    "suggestedLot": 10.91,
+    "transactions": [
+      {
+        "id": 205,
+        "isBuy": false,
+        "suggestedLot": 10.91,
+        "amount": 4,
+        "earnedAmount": -4,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 206,
+        "isBuy": true,
+        "suggestedLot": 10.85,
+        "amount": 9,
+        "earnedAmount": 7.11,
+        "isWon": true,
+        "notes": "good analysis",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 207,
+        "isBuy": false,
+        "suggestedLot": 10.96,
+        "amount": 8,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 208,
+        "isBuy": true,
+        "suggestedLot": 10.96,
+        "amount": 1,
+        "earnedAmount": 0.79,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 209,
+        "isBuy": true,
+        "suggestedLot": 10.97,
+        "amount": 1,
+        "earnedAmount": 0.78,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 210,
+        "isBuy": false,
+        "suggestedLot": 10.98,
+        "amount": 5,
+        "earnedAmount": 0.34,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "isDeposit": false,
+    "dateTime": "2020-06-15 8:11:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 726.44,
+    "finalAmount": 727.3000000000001,
+    "suggestedLot": 10.9,
+    "transactions": [
+      {
+        "id": 198,
+        "isBuy": false,
+        "suggestedLot": 10.9,
+        "amount": 8,
+        "earnedAmount": -8,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 199,
+        "isBuy": false,
+        "suggestedLot": 10.78,
+        "amount": 10.78,
+        "earnedAmount": -10.78,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 200,
+        "isBuy": false,
+        "suggestedLot": 10.61,
+        "amount": 1,
+        "earnedAmount": 0.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 201,
+        "isBuy": false,
+        "suggestedLot": 10.63,
+        "amount": 10.61,
+        "earnedAmount": -10.61,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 202,
+        "isBuy": false,
+        "suggestedLot": 10.47,
+        "amount": 10.61,
+        "earnedAmount": 9.55,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 203,
+        "isBuy": true,
+        "suggestedLot": 10.61,
+        "amount": 11,
+        "earnedAmount": 9.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 204,
+        "isBuy": false,
+        "suggestedLot": 10.76,
+        "amount": 11,
+        "earnedAmount": 9.9,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "isDeposit": false,
+    "dateTime": "2020-06-15 7:17:00",
+    "facilitator": "Kamil Lewandowski",
+    "initialAmount": 791.42,
+    "finalAmount": 726.4399999999999,
+    "suggestedLot": 11.87,
+    "transactions": [
+      {
+        "id": 190,
+        "isBuy": false,
+        "suggestedLot": 11.87,
+        "amount": 1,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 191,
+        "isBuy": false,
+        "suggestedLot": 11.87,
+        "amount": 16,
+        "earnedAmount": -16,
+        "isWon": false,
+        "notes": "se ganaba en 3 y 4  minutos",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 192,
+        "isBuy": false,
+        "suggestedLot": 11.63,
+        "amount": 8,
+        "earnedAmount": 7.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 193,
+        "isBuy": false,
+        "suggestedLot": 11.74,
+        "amount": 8,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 194,
+        "isBuy": false,
+        "suggestedLot": 11.74,
+        "amount": 48,
+        "earnedAmount": -48,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 195,
+        "isBuy": false,
+        "suggestedLot": 11.02,
+        "amount": 8,
+        "earnedAmount": -8,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 196,
+        "isBuy": false,
+        "suggestedLot": 10.9,
+        "amount": 2,
+        "earnedAmount": 1.82,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 197,
+        "isBuy": false,
+        "suggestedLot": 10.93,
+        "amount": 2,
+        "earnedAmount": -2,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "isDeposit": false,
+    "dateTime": "2020-06-14 23:52:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 808.71,
+    "finalAmount": 791.4200000000001,
+    "suggestedLot": 12.13,
+    "transactions": [
+      {
+        "id": 187,
+        "isBuy": true,
+        "suggestedLot": 12.13,
+        "amount": 8.1,
+        "earnedAmount": -8.1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 188,
+        "isBuy": false,
+        "suggestedLot": 12.01,
+        "amount": 8.1,
+        "earnedAmount": -9.19,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "isDeposit": false,
+    "dateTime": "2020-06-14 23:11:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 808.71,
+    "finalAmount": 807.62,
+    "suggestedLot": 12.13,
+    "transactions": [
+      {
+        "id": 189,
+        "isBuy": false,
+        "suggestedLot": 12.13,
+        "amount": 1,
+        "earnedAmount": -1.09,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "isDeposit": true,
+    "dateTime": "2020-06-14 19:17:00",
+    "facilitator": "Bank Transaction",
+    "initialAmount": 508.71,
+    "finalAmount": 808.71,
+    "suggestedLot": 10.17,
+    "transactions": []
+  },
+  {
+    "id": 38,
+    "isDeposit": false,
+    "dateTime": "2020-06-14 18:4:00",
+    "facilitator": "Ric",
+    "initialAmount": 508.71,
+    "finalAmount": 508.71,
+    "suggestedLot": 10.17,
+    "transactions": [
+      {
+        "id": 186,
+        "isBuy": false,
+        "suggestedLot": 10.17,
+        "amount": 10.17,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "mejoras al sistema",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "isDeposit": false,
+    "dateTime": "2020-06-12 0:44:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 550.71,
+    "finalAmount": 508.71000000000004,
+    "suggestedLot": 11.01,
+    "transactions": [
+      {
+        "id": 182,
+        "isBuy": false,
+        "suggestedLot": 7.56,
+        "amount": 12,
+        "earnedAmount": -12,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 183,
+        "isBuy": false,
+        "suggestedLot": 10.77,
+        "amount": 24,
+        "earnedAmount": -24,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 184,
+        "isBuy": false,
+        "suggestedLot": 10.29,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 185,
+        "isBuy": false,
+        "suggestedLot": 10.23,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "isDeposit": true,
+    "dateTime": "2020-06-12 0:33:00",
+    "facilitator": "Bank Transaction",
+    "initialAmount": 378.07,
+    "finalAmount": 550.71,
+    "suggestedLot": 7.56,
+    "transactions": []
+  },
+  {
+    "id": 35,
+    "isDeposit": false,
+    "dateTime": "2020-06-12 0:31:00",
+    "facilitator": "Silvia Gonzalez",
+    "initialAmount": 346.27,
+    "finalAmount": 378.07,
+    "suggestedLot": 6.93,
+    "transactions": [
+      {
+        "id": 178,
+        "isBuy": false,
+        "suggestedLot": 6.93,
+        "amount": 6,
+        "earnedAmount": 5.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 179,
+        "isBuy": true,
+        "suggestedLot": 7.03,
+        "amount": 6,
+        "earnedAmount": 5.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 180,
+        "isBuy": false,
+        "suggestedLot": 7.14,
+        "amount": 12,
+        "earnedAmount": 10.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 181,
+        "isBuy": true,
+        "suggestedLot": 7.36,
+        "amount": 12,
+        "earnedAmount": 10.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "isDeposit": false,
+    "dateTime": "2020-06-12 0:28:00",
+    "facilitator": "Ric",
+    "initialAmount": 323.57,
+    "finalAmount": 346.27,
+    "suggestedLot": 6.47,
+    "transactions": [
+      {
+        "id": 171,
+        "isBuy": false,
+        "suggestedLot": 6.47,
+        "amount": 10,
+        "earnedAmount": 8.7,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 172,
+        "isBuy": true,
+        "suggestedLot": 6.65,
+        "amount": 30,
+        "earnedAmount": 7.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 173,
+        "isBuy": true,
+        "suggestedLot": 6.79,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 174,
+        "isBuy": true,
+        "suggestedLot": 6.73,
+        "amount": 3,
+        "earnedAmount": 2.61,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 175,
+        "isBuy": false,
+        "suggestedLot": 6.79,
+        "amount": 2,
+        "earnedAmount": 1.74,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 176,
+        "isBuy": true,
+        "suggestedLot": 6.82,
+        "amount": 3,
+        "earnedAmount": 2.61,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 177,
+        "isBuy": true,
+        "suggestedLot": 6.87,
+        "amount": 3,
+        "earnedAmount": 2.64,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "isDeposit": false,
+    "dateTime": "2020-06-12 0:23:00",
+    "facilitator": "Ric",
+    "initialAmount": 322.35,
+    "finalAmount": 323.57,
+    "suggestedLot": 6.45,
+    "transactions": [
+      {
+        "id": 159,
+        "isBuy": true,
+        "suggestedLot": 6.45,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 160,
+        "isBuy": true,
+        "suggestedLot": 6.25,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 161,
+        "isBuy": true,
+        "suggestedLot": 6.05,
+        "amount": 5,
+        "earnedAmount": -5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 162,
+        "isBuy": true,
+        "suggestedLot": 5.95,
+        "amount": 1,
+        "earnedAmount": 0.87,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 163,
+        "isBuy": true,
+        "suggestedLot": 5.96,
+        "amount": 10,
+        "earnedAmount": 8.7,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 164,
+        "isBuy": false,
+        "suggestedLot": 6.14,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 165,
+        "isBuy": true,
+        "suggestedLot": 5.94,
+        "amount": 10,
+        "earnedAmount": 8.7,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 166,
+        "isBuy": true,
+        "suggestedLot": 6.11,
+        "amount": 31,
+        "earnedAmount": -12.3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 167,
+        "isBuy": true,
+        "suggestedLot": 5.87,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 168,
+        "isBuy": true,
+        "suggestedLot": 5.47,
+        "amount": 40,
+        "earnedAmount": 34.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 169,
+        "isBuy": false,
+        "suggestedLot": 6.16,
+        "amount": 20,
+        "earnedAmount": 17.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 170,
+        "isBuy": true,
+        "suggestedLot": 6.51,
+        "amount": 30,
+        "earnedAmount": -1.95,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "isDeposit": false,
+    "dateTime": "2020-06-12 0:19:00",
+    "facilitator": "Ric",
+    "initialAmount": 276,
+    "finalAmount": 322.35,
+    "suggestedLot": 5.52,
+    "transactions": [
+      {
+        "id": 151,
+        "isBuy": true,
+        "suggestedLot": 5.52,
+        "amount": 45,
+        "earnedAmount": -9.6,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 152,
+        "isBuy": true,
+        "suggestedLot": 5.33,
+        "amount": 20,
+        "earnedAmount": 15.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 153,
+        "isBuy": true,
+        "suggestedLot": 5.64,
+        "amount": 5,
+        "earnedAmount": -5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 154,
+        "isBuy": true,
+        "suggestedLot": 5.54,
+        "amount": 60,
+        "earnedAmount": 46.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 155,
+        "isBuy": true,
+        "suggestedLot": 6.48,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 156,
+        "isBuy": true,
+        "suggestedLot": 6.46,
+        "amount": 5,
+        "earnedAmount": 4.35,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 157,
+        "isBuy": false,
+        "suggestedLot": 6.55,
+        "amount": 5,
+        "earnedAmount": 0,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 158,
+        "isBuy": false,
+        "suggestedLot": 6.55,
+        "amount": 5,
+        "earnedAmount": -5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "isDeposit": false,
+    "dateTime": "2020-06-04 0:9:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 296.37,
+    "finalAmount": 276,
+    "suggestedLot": 11.85,
+    "transactions": [
+      {
+        "id": 145,
+        "isBuy": false,
+        "suggestedLot": 11.85,
+        "amount": 20,
+        "earnedAmount": -4.81,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 146,
+        "isBuy": true,
+        "suggestedLot": 11.66,
+        "amount": 20,
+        "earnedAmount": 16.4,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 147,
+        "isBuy": true,
+        "suggestedLot": 12.32,
+        "amount": 30,
+        "earnedAmount": -30,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 148,
+        "isBuy": false,
+        "suggestedLot": 11.12,
+        "amount": 10,
+        "earnedAmount": 8.2,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 149,
+        "isBuy": false,
+        "suggestedLot": 11.45,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "Esntré con un trader que no me gusta!!! que siempre entra a 1 minuto y el vato hace un desmadre con su estrategia; mete un chorro de tips y roll overs",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 150,
+        "isBuy": false,
+        "suggestedLot": 11.05,
+        "amount": 2,
+        "earnedAmount": -0.16,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "isDeposit": false,
+    "dateTime": "2020-06-03 23:11:00",
+    "facilitator": "Silvia Gonzalez",
+    "initialAmount": 315.06,
+    "finalAmount": 296.37,
+    "suggestedLot": 12.6,
+    "transactions": [
+      {
+        "id": 138,
+        "isBuy": false,
+        "suggestedLot": 12.6,
+        "amount": 1,
+        "earnedAmount": 0.8,
+        "isWon": true,
+        "notes": "entered based on the analysis of previous class; good entry point; i waited for the rejection",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 139,
+        "isBuy": false,
+        "suggestedLot": 12.63,
+        "amount": 5,
+        "earnedAmount": 4.11,
+        "isWon": true,
+        "notes": "I waited for a pullback on oprevious entree and it went ok, however we ran out of liquidity and had to wnter to next minute target; last minute there was a pullback that almost made lost my position",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 140,
+        "isBuy": true,
+        "suggestedLot": 12.8,
+        "amount": 10,
+        "earnedAmount": 8.2,
+        "isWon": true,
+        "notes": "excelent time and point; I entered right after the morning star and won it with an excelent position",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 141,
+        "isBuy": false,
+        "suggestedLot": 13.13,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 142,
+        "isBuy": false,
+        "suggestedLot": 12.73,
+        "amount": 10,
+        "earnedAmount": 8.2,
+        "isWon": true,
+        "notes": "entré en un segundo punto de entrada, buena netrada",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 143,
+        "isBuy": false,
+        "suggestedLot": 13.05,
+        "amount": 20,
+        "earnedAmount": -20,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 144,
+        "isBuy": false,
+        "suggestedLot": 12.25,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "isDeposit": false,
+    "dateTime": "2020-06-03 23:3:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 304.35,
+    "finalAmount": 315.06,
+    "suggestedLot": 12.17,
+    "transactions": [
+      {
+        "id": 126,
+        "isBuy": true,
+        "suggestedLot": 12.17,
+        "amount": 1,
+        "earnedAmount": 0.8,
+        "isWon": true,
+        "notes": "ok",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 127,
+        "isBuy": true,
+        "suggestedLot": 12.21,
+        "amount": 1,
+        "earnedAmount": 0.7,
+        "isWon": true,
+        "notes": "ok",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 128,
+        "isBuy": true,
+        "suggestedLot": 12.23,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 129,
+        "isBuy": true,
+        "suggestedLot": 12.19,
+        "amount": 10,
+        "earnedAmount": 7.81,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 130,
+        "isBuy": true,
+        "suggestedLot": 12.51,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "entré demasiado temprano",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 131,
+        "isBuy": false,
+        "suggestedLot": 12.11,
+        "amount": 10,
+        "earnedAmount": -10,
+        "isWon": false,
+        "notes": "entré demasiado tempano",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 132,
+        "isBuy": false,
+        "suggestedLot": 11.71,
+        "amount": 10,
+        "earnedAmount": 8,
+        "isWon": true,
+        "notes": "Esperé al siguiente minuto de la operación anterior; hizo un morning start y entré ahí!, y el mercado reaccionó ",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 133,
+        "isBuy": false,
+        "suggestedLot": 12.03,
+        "amount": 2,
+        "earnedAmount": -2,
+        "isWon": false,
+        "notes": "mal análisis",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 134,
+        "isBuy": false,
+        "suggestedLot": 11.95,
+        "amount": 4,
+        "earnedAmount": -0.4,
+        "isWon": false,
+        "notes": "traté de recuperarme de la anterior y la perdí",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 135,
+        "isBuy": false,
+        "suggestedLot": 11.93,
+        "amount": 10,
+        "earnedAmount": 8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 136,
+        "isBuy": false,
+        "suggestedLot": 12.25,
+        "amount": 10,
+        "earnedAmount": 8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 137,
+        "isBuy": true,
+        "suggestedLot": 12.57,
+        "amount": 1,
+        "earnedAmount": 0.8,
+        "isWon": true,
+        "notes": "me faltó confianza en mi mismo para entrar por mi mismo con un mayor monto",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "isDeposit": true,
+    "dateTime": "2020-06-03 23:3:00",
+    "facilitator": "Bank Transaction",
+    "initialAmount": 154.35,
+    "finalAmount": 304.35,
+    "suggestedLot": 6.17,
+    "transactions": []
+  },
+  {
+    "id": 27,
+    "isDeposit": false,
+    "dateTime": "2020-05-28 23:2:00",
+    "facilitator": "Daniel Lopez & Hugo Gomez",
+    "initialAmount": 176.54,
+    "finalAmount": 154.35,
+    "suggestedLot": 7.06,
+    "transactions": [
+      {
+        "id": 123,
+        "isBuy": false,
+        "suggestedLot": 7.06,
+        "amount": 7.5,
+        "earnedAmount": -7.5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 124,
+        "isBuy": false,
+        "suggestedLot": 6.76,
+        "amount": 7.19,
+        "earnedAmount": -7.19,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 125,
+        "isBuy": false,
+        "suggestedLot": 6.47,
+        "amount": 7.5,
+        "earnedAmount": -7.5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "isDeposit": false,
+    "dateTime": "2020-05-28 22:2:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 199.06,
+    "finalAmount": 176.54,
+    "suggestedLot": 7.96,
+    "transactions": [
+      {
+        "id": 112,
+        "isBuy": false,
+        "suggestedLot": 7.96,
+        "amount": 7.95,
+        "earnedAmount": -7.95,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 113,
+        "isBuy": false,
+        "suggestedLot": 7.64,
+        "amount": 7.95,
+        "earnedAmount": 5.57,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 114,
+        "isBuy": true,
+        "suggestedLot": 7.87,
+        "amount": 8.96,
+        "earnedAmount": 6.27,
+        "isWon": true,
+        "notes": "esperé indicación y entré en la zona de resistencia, después de haber analizado y revisado que retesteara el precio en la resistencia",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 115,
+        "isBuy": false,
+        "suggestedLot": 8.12,
+        "amount": 2,
+        "earnedAmount": -0.07,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 116,
+        "isBuy": false,
+        "suggestedLot": 8.12,
+        "amount": 24.85,
+        "earnedAmount": -23.05,
+        "isWon": false,
+        "notes": "en vez de poner 3 entradas de $1, puse 3 entradas de $8, y las perdí, estoy muy enojado",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 117,
+        "isBuy": false,
+        "suggestedLot": 7.19,
+        "amount": 1,
+        "earnedAmount": 0.74,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 118,
+        "isBuy": false,
+        "suggestedLot": 7.22,
+        "amount": 1,
+        "earnedAmount": 0.8,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 119,
+        "isBuy": false,
+        "suggestedLot": 7.25,
+        "amount": -7.19,
+        "earnedAmount": -7.19,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 120,
+        "isBuy": false,
+        "suggestedLot": 6.97,
+        "amount": 3,
+        "earnedAmount": -3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 4
+      },
+      {
+        "id": 121,
+        "isBuy": false,
+        "suggestedLot": 6.85,
+        "amount": 7.96,
+        "earnedAmount": 6.36,
+        "isWon": true,
+        "notes": "Estoy muy enojado por la operación de -$23",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 122,
+        "isBuy": false,
+        "suggestedLot": 7.1,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "Sigo muy enojado",
+        "reasonOfLoss": 3
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "isDeposit": false,
+    "dateTime": "2020-05-28 10:11:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 185.97,
+    "finalAmount": 199.06,
+    "suggestedLot": 7.44,
+    "transactions": [
+      {
+        "id": 109,
+        "isBuy": false,
+        "suggestedLot": 7.44,
+        "amount": 1,
+        "earnedAmount": 0.83,
+        "isWon": true,
+        "notes": "Entré porque el profesor dijo que iba a subir, así que entré en corto, en una zona de resistencia (horizontal y vertical)",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 110,
+        "isBuy": false,
+        "suggestedLot": 7.47,
+        "amount": 7.47,
+        "earnedAmount": 6.13,
+        "isWon": true,
+        "notes": "Entré basándome en el análisis del profesor, que no pudo cantar porque estaba dando clase de mentalidad",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 111,
+        "isBuy": false,
+        "suggestedLot": 7.72,
+        "amount": 7.47,
+        "earnedAmount": 6.13,
+        "isWon": true,
+        "notes": "buena entrada; pude haber entrado 5 segundos después, pero me hubiera quedad sin liquidez ",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "isDeposit": false,
+    "dateTime": "2020-05-28 1:11:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 174.79,
+    "finalAmount": 185.97,
+    "suggestedLot": 6.99,
+    "transactions": [
+      {
+        "id": 103,
+        "isBuy": false,
+        "suggestedLot": 6.99,
+        "amount": 8.5,
+        "earnedAmount": 6.97,
+        "isWon": true,
+        "notes": "No entré en el mejor punto y me puse muy ansioso",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 104,
+        "isBuy": false,
+        "suggestedLot": 7.27,
+        "amount": 4,
+        "earnedAmount": 3.28,
+        "isWon": true,
+        "notes": "Entré en un mucho mejor punto que la anterior, pero a un minuto más ",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 105,
+        "isBuy": true,
+        "suggestedLot": 7.4,
+        "amount": 7.5,
+        "earnedAmount": 6.15,
+        "isWon": true,
+        "notes": "vi la entrada antes de que la cantara el profe, pero como quiera entré hasta que la cantara y me fue bien, aunque no tomé la mejor entrada",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 106,
+        "isBuy": true,
+        "suggestedLot": 7.65,
+        "amount": 7.5,
+        "earnedAmount": -7.5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 107,
+        "isBuy": true,
+        "suggestedLot": 7.35,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 108,
+        "isBuy": true,
+        "suggestedLot": 7.31,
+        "amount": 4,
+        "earnedAmount": 3.28,
+        "isWon": true,
+        "notes": "mala entrada, pero buena temporalidad; bajó bastante y luego ya hico el retroceso; me pude haber esperado un minuto más para entrar en un mejor punto ",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "isDeposit": false,
+    "dateTime": "2020-05-28 1:7:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 201.79,
+    "finalAmount": 174.79,
+    "suggestedLot": 8.07,
+    "transactions": [
+      {
+        "id": 98,
+        "isBuy": true,
+        "suggestedLot": 8.07,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "entré a los últimos 5 minutos de la clase y me apuré",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 99,
+        "isBuy": false,
+        "suggestedLot": 8.03,
+        "amount": 8.5,
+        "earnedAmount": -8.5,
+        "isWon": false,
+        "notes": "entré a los últimos 5 minutos de la clase y me apuré",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 100,
+        "isBuy": true,
+        "suggestedLot": 7.69,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "entré a los últimos 5 minutos de la clase y me apuré",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 101,
+        "isBuy": true,
+        "suggestedLot": 7.65,
+        "amount": 8,
+        "earnedAmount": -8,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 102,
+        "isBuy": false,
+        "suggestedLot": 7.33,
+        "amount": 8.5,
+        "earnedAmount": -8.5,
+        "isWon": false,
+        "notes": "entré a los últimos 5 minutos de la clase y me apuré",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "isDeposit": false,
+    "dateTime": "2020-05-28 0:5:00",
+    "facilitator": "Maratón Inglés",
+    "initialAmount": 206.13,
+    "finalAmount": 201.79,
+    "suggestedLot": 8.25,
+    "transactions": [
+      {
+        "id": 92,
+        "isBuy": false,
+        "suggestedLot": 8.25,
+        "amount": 4,
+        "earnedAmount": -2.1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 93,
+        "isBuy": false,
+        "suggestedLot": 8.16,
+        "amount": 8.5,
+        "earnedAmount": -8.5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 94,
+        "isBuy": false,
+        "suggestedLot": 7.82,
+        "amount": 8.5,
+        "earnedAmount": 6.97,
+        "isWon": true,
+        "notes": "entered previous transaction at 1 minute more and the market reacred",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 95,
+        "isBuy": false,
+        "suggestedLot": 8.1,
+        "amount": 8.5,
+        "earnedAmount": -8.5,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 96,
+        "isBuy": false,
+        "suggestedLot": 7.76,
+        "amount": 8.5,
+        "earnedAmount": 6.97,
+        "isWon": true,
+        "notes": "entered previous transaction at 1 minute more and the market reacred\t",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 97,
+        "isBuy": false,
+        "suggestedLot": 8.04,
+        "amount": 1,
+        "earnedAmount": 0.82,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "isDeposit": false,
+    "dateTime": "2020-05-27 23:14:00",
+    "facilitator": "Silvia Gonzalez",
+    "initialAmount": 175.93,
+    "finalAmount": 206.13,
+    "suggestedLot": 7.04,
+    "transactions": [
+      {
+        "id": 82,
+        "isBuy": true,
+        "suggestedLot": 7.04,
+        "amount": 14.2,
+        "earnedAmount": 11.78,
+        "isWon": true,
+        "notes": "entré en una resistencia! =)",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 83,
+        "isBuy": false,
+        "suggestedLot": 7.51,
+        "amount": 7.51,
+        "earnedAmount": 6.16,
+        "isWon": true,
+        "notes": "Habían mandado señal a a15 mins; esperé 10 mins y entré en un bajo más bajo y reacconó el precio y gané =) ",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 84,
+        "isBuy": false,
+        "suggestedLot": 7.75,
+        "amount": 7.1,
+        "earnedAmount": -7.1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 85,
+        "isBuy": false,
+        "suggestedLot": 7.47,
+        "amount": 7.47,
+        "earnedAmount": -1.34,
+        "isWon": false,
+        "notes": "entered on 1 minute instead of 2; with Leo díaz",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 86,
+        "isBuy": false,
+        "suggestedLot": 7.42,
+        "amount": 7.47,
+        "earnedAmount": 6.13,
+        "isWon": true,
+        "notes": "Entré con Leo días, buen tiempo ",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 87,
+        "isBuy": true,
+        "suggestedLot": 7.66,
+        "amount": 1,
+        "earnedAmount": 0.82,
+        "isWon": true,
+        "notes": "Entré en un pullback de tendencia alcista, y a 3 minutos para darle tiempo de reaccionar",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 88,
+        "isBuy": true,
+        "suggestedLot": 7.7,
+        "amount": 4,
+        "earnedAmount": -4,
+        "isWon": false,
+        "notes": "entré en un pullback a 2 minutpos, pero bajó más y luego se recuperó ",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 89,
+        "isBuy": true,
+        "suggestedLot": 7.54,
+        "amount": 8.5,
+        "earnedAmount": 6.97,
+        "isWon": true,
+        "notes": "muy buena entrada!; aproveché un pullback justo a 5 mins de una entrada de 15 mins y el precio reaccionó a lo que buscabamos",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 90,
+        "isBuy": true,
+        "suggestedLot": 7.81,
+        "amount": 7.5,
+        "earnedAmount": 5.18,
+        "isWon": true,
+        "notes": "excelente entrada a 15 mins!",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 91,
+        "isBuy": false,
+        "suggestedLot": 8.02,
+        "amount": 7.47,
+        "earnedAmount": 5.6,
+        "isWon": true,
+        "notes": "excelente entrada!",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "isDeposit": false,
+    "dateTime": "2020-05-27 1:13:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 174.94,
+    "finalAmount": 175.93,
+    "suggestedLot": 7,
+    "transactions": [
+      {
+        "id": 70,
+        "isBuy": false,
+        "suggestedLot": 7,
+        "amount": 8,
+        "earnedAmount": 7.44,
+        "isWon": true,
+        "notes": "no había liquidez a 4 min, entré a 5",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 71,
+        "isBuy": false,
+        "suggestedLot": 7.3,
+        "amount": 8,
+        "earnedAmount": -8,
+        "isWon": false,
+        "notes": "No había entrado al tiempo y puego cerré la ventana y la volví a abrir y creí que era buena entrada",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 72,
+        "isBuy": false,
+        "suggestedLot": 6.98,
+        "amount": 1,
+        "earnedAmount": 0.92,
+        "isWon": true,
+        "notes": "Entré por mi sólo",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 73,
+        "isBuy": true,
+        "suggestedLot": 7.01,
+        "amount": 7.1,
+        "earnedAmount": -7.1,
+        "isWon": false,
+        "notes": "entered before and on a bad entry point",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 74,
+        "isBuy": true,
+        "suggestedLot": 6.73,
+        "amount": 14.2,
+        "earnedAmount": -14.2,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 75,
+        "isBuy": true,
+        "suggestedLot": 6.16,
+        "amount": 7.1,
+        "earnedAmount": 6.6,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 76,
+        "isBuy": true,
+        "suggestedLot": 6.42,
+        "amount": 1,
+        "earnedAmount": 0.93,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 77,
+        "isBuy": false,
+        "suggestedLot": 6.46,
+        "amount": 6,
+        "earnedAmount": 5.52,
+        "isWon": true,
+        "notes": "entré a un minuto más porque no había liquidez",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 78,
+        "isBuy": true,
+        "suggestedLot": 6.68,
+        "amount": 2,
+        "earnedAmount": -2,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 79,
+        "isBuy": true,
+        "suggestedLot": 6.6,
+        "amount": 6,
+        "earnedAmount": 5.58,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 80,
+        "isBuy": false,
+        "suggestedLot": 6.83,
+        "amount": 600,
+        "earnedAmount": -2.14,
+        "isWon": false,
+        "notes": "había entrado bien al inicio, pero por miedo hice double-up a la contra y ese double up es el que me hizo perder",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 81,
+        "isBuy": true,
+        "suggestedLot": 6.74,
+        "amount": 8,
+        "earnedAmount": 7.44,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "isDeposit": true,
+    "dateTime": "2020-05-27 0:47:00",
+    "facilitator": "Bank Transaction",
+    "initialAmount": 180.95,
+    "finalAmount": 174.94,
+    "suggestedLot": 7.24,
+    "transactions": []
+  },
+  {
+    "id": 18,
+    "isDeposit": false,
+    "dateTime": "2020-05-27 0:27:00",
+    "facilitator": "Evan Cabral",
+    "initialAmount": 181.4,
+    "finalAmount": 180.95000000000002,
+    "suggestedLot": 7.26,
+    "transactions": [
+      {
+        "id": 67,
+        "isBuy": false,
+        "suggestedLot": 7.26,
+        "amount": 14.6,
+        "earnedAmount": -14.6,
+        "isWon": false,
+        "notes": "había entrado bajo indicación de Evan, pero el mercado subió y metí un double-up que duplicó mis pérdidas",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 68,
+        "isBuy": false,
+        "suggestedLot": 6.67,
+        "amount": 8,
+        "earnedAmount": 7.36,
+        "isWon": true,
+        "notes": "muy buena entrada! ",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 69,
+        "isBuy": false,
+        "suggestedLot": 6.97,
+        "amount": 7.3,
+        "earnedAmount": 6.79,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 23:7:00",
+    "facilitator": "Daniel Lopez",
+    "initialAmount": 180.52,
+    "finalAmount": 181.4,
+    "suggestedLot": 7.22,
+    "transactions": [
+      {
+        "id": 61,
+        "isBuy": false,
+        "suggestedLot": 7.22,
+        "amount": 1,
+        "earnedAmount": 0.88,
+        "isWon": true,
+        "notes": "entré después, porque ya había pasado el tiempo, pero gestioné mi riesgo y entré con el mínimo posible",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 23:1:00",
+    "facilitator": "Maratón Español",
+    "initialAmount": 180.52,
+    "finalAmount": 174.51000000000002,
+    "suggestedLot": 7.22,
+    "transactions": [
+      {
+        "id": 62,
+        "isBuy": true,
+        "suggestedLot": 7.22,
+        "amount": 1,
+        "earnedAmount": 0.87,
+        "isWon": true,
+        "notes": "Trade con Evan Cabral; entré con poca confianza",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 63,
+        "isBuy": false,
+        "suggestedLot": 7.26,
+        "amount": 7.3,
+        "earnedAmount": -7.3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 1
+      },
+      {
+        "id": 64,
+        "isBuy": false,
+        "suggestedLot": 6.96,
+        "amount": 1,
+        "earnedAmount": 0.93,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 65,
+        "isBuy": true,
+        "suggestedLot": 7,
+        "amount": 7.3,
+        "earnedAmount": 6.79,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 66,
+        "isBuy": false,
+        "suggestedLot": 7.27,
+        "amount": 7.3,
+        "earnedAmount": -7.3,
+        "isWon": false,
+        "notes": "Maratón; es mucho más problema que las oportunidades que me dá",
+        "reasonOfLoss": 3
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 22:3:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 163.87,
+    "finalAmount": 180.52,
+    "suggestedLot": 6.55,
+    "transactions": [
+      {
+        "id": 57,
+        "isBuy": false,
+        "suggestedLot": 6.55,
+        "amount": 6.55,
+        "earnedAmount": 5.76,
+        "isWon": true,
+        "notes": "entré a 4 minutos en vez de a 5",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 58,
+        "isBuy": true,
+        "suggestedLot": 6.79,
+        "amount": 13.1,
+        "earnedAmount": -0.85,
+        "isWon": false,
+        "notes": "necesito poner más atención",
+        "reasonOfLoss": 6
+      },
+      {
+        "id": 59,
+        "isBuy": true,
+        "suggestedLot": 6.75,
+        "amount": 6.75,
+        "earnedAmount": 5.87,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 60,
+        "isBuy": true,
+        "suggestedLot": 6.99,
+        "amount": 6.75,
+        "earnedAmount": 5.87,
+        "isWon": true,
+        "notes": "entré a 5 minutos en vez de a 3",
+        "reasonOfLoss": 5
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 12:10:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 152.73,
+    "finalAmount": 163.87,
+    "suggestedLot": 6.11,
+    "transactions": [
+      {
+        "id": 40,
+        "isBuy": false,
+        "suggestedLot": 6.11,
+        "amount": 6.11,
+        "earnedAmount": 5.44,
+        "isWon": true,
+        "notes": "muy buena entrada! ",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 41,
+        "isBuy": false,
+        "suggestedLot": 6.33,
+        "amount": 6.33,
+        "earnedAmount": 5.7,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 10:5:00",
+    "facilitator": "Jonathan Núñez",
+    "initialAmount": 142.52,
+    "finalAmount": 152.73000000000002,
+    "suggestedLot": 5.7,
+    "transactions": [
+      {
+        "id": 38,
+        "isBuy": true,
+        "suggestedLot": 5.7,
+        "amount": 5.7,
+        "earnedAmount": 5.36,
+        "isWon": true,
+        "notes": "muy buena entrada! ",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 39,
+        "isBuy": true,
+        "suggestedLot": 5.92,
+        "amount": 5.92,
+        "earnedAmount": 4.85,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 5
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 7:55:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 189.23,
+    "finalAmount": 142.51999999999998,
+    "suggestedLot": 7.57,
+    "transactions": [
+      {
+        "id": 33,
+        "isBuy": false,
+        "suggestedLot": 7.57,
+        "amount": 8,
+        "earnedAmount": -8,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 34,
+        "isBuy": false,
+        "suggestedLot": 7.25,
+        "amount": 10,
+        "earnedAmount": 5.57,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 35,
+        "isBuy": true,
+        "suggestedLot": 7.47,
+        "amount": 30.28,
+        "earnedAmount": -30.28,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 36,
+        "isBuy": false,
+        "suggestedLot": 6.26,
+        "amount": 8,
+        "earnedAmount": -8,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 37,
+        "isBuy": false,
+        "suggestedLot": 5.94,
+        "amount": 6,
+        "earnedAmount": -6,
+        "isWon": false,
+        "notes": "Market",
+        "reasonOfLoss": 8
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 7:11:00",
+    "facilitator": "Eddy Vera",
+    "initialAmount": 178.4,
+    "finalAmount": 189.23000000000002,
+    "suggestedLot": 7.14,
+    "transactions": [
+      {
+        "id": 31,
+        "isBuy": false,
+        "suggestedLot": 7.14,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "entré en un punto de resistencia, sin darme cuenta ",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 32,
+        "isBuy": true,
+        "suggestedLot": 7.1,
+        "amount": 16.2,
+        "earnedAmount": 11.83,
+        "isWon": true,
+        "notes": "Entré en un mal punto, gané por poco",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 2:4:00",
+    "facilitator": "Jhan Carlos",
+    "initialAmount": 184.57,
+    "finalAmount": 178.39999999999998,
+    "suggestedLot": 7.38,
+    "transactions": [
+      {
+        "id": 22,
+        "isBuy": true,
+        "suggestedLot": 7.38,
+        "amount": 7.5,
+        "earnedAmount": 5.47,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 23,
+        "isBuy": true,
+        "suggestedLot": 7.6,
+        "amount": 7.5,
+        "earnedAmount": 5.48,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 24,
+        "isBuy": true,
+        "suggestedLot": 7.82,
+        "amount": 15.64,
+        "earnedAmount": -15.64,
+        "isWon": false,
+        "notes": "Market",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 25,
+        "isBuy": false,
+        "suggestedLot": 7.2,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "entered by myself",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 26,
+        "isBuy": true,
+        "suggestedLot": 7.16,
+        "amount": 16,
+        "earnedAmount": 11.52,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 27,
+        "isBuy": false,
+        "suggestedLot": 7.62,
+        "amount": 4,
+        "earnedAmount": -4,
+        "isWon": false,
+        "notes": "wrong timeframe",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 28,
+        "isBuy": false,
+        "suggestedLot": 7.46,
+        "amount": 4,
+        "earnedAmount": -4,
+        "isWon": false,
+        "notes": "wrong pair",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 29,
+        "isBuy": true,
+        "suggestedLot": 7.3,
+        "amount": 4,
+        "earnedAmount": -4,
+        "isWon": false,
+        "notes": "Market",
+        "reasonOfLoss": 0
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 0:32:00",
+    "facilitator": "Ric",
+    "initialAmount": 175.79,
+    "finalAmount": 184.57,
+    "suggestedLot": 7.03,
+    "transactions": [
+      {
+        "id": 12,
+        "isBuy": false,
+        "suggestedLot": 7.03,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": ""
+      },
+      {
+        "id": 13,
+        "isBuy": true,
+        "suggestedLot": 6.99,
+        "amount": 2,
+        "earnedAmount": -2,
+        "isWon": false,
+        "notes": "Entré por mi cuenta"
+      },
+      {
+        "id": 15,
+        "isBuy": true,
+        "suggestedLot": 6.87,
+        "amount": 1,
+        "earnedAmount": 0.72,
+        "isWon": true,
+        "notes": "Entré por mi cuenta"
+      },
+      {
+        "id": 16,
+        "isBuy": true,
+        "suggestedLot": 6.9,
+        "amount": 8,
+        "earnedAmount": 5.76,
+        "isWon": true,
+        "notes": "No actualicé el reloj; era a 5 min, entré a 3"
+      },
+      {
+        "id": 17,
+        "isBuy": true,
+        "suggestedLot": 7.13,
+        "amount": 7,
+        "earnedAmount": 5.04,
+        "isWon": true,
+        "notes": ""
+      },
+      {
+        "id": 18,
+        "isBuy": false,
+        "suggestedLot": 7.33,
+        "amount": 7,
+        "earnedAmount": -7,
+        "isWon": false,
+        "notes": ""
+      },
+      {
+        "id": 19,
+        "isBuy": false,
+        "suggestedLot": 7.05,
+        "amount": 7,
+        "earnedAmount": -7,
+        "isWon": false,
+        "notes": "Entré en un reloj que no era; entré en 1 min y era a 5"
+      },
+      {
+        "id": 20,
+        "isBuy": true,
+        "suggestedLot": 6.77,
+        "amount": 14,
+        "earnedAmount": 10.22,
+        "isWon": true,
+        "notes": ""
+      },
+      {
+        "id": 21,
+        "isBuy": true,
+        "suggestedLot": 7.18,
+        "amount": 7,
+        "earnedAmount": 5.04,
+        "isWon": true,
+        "notes": "muy buena entrada! "
+      },
+      {
+        "id": 14,
+        "isBuy": false,
+        "suggestedLot": 6.91,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "a la",
+        "reasonOfLoss": 3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "isDeposit": true,
+    "dateTime": "2020-05-25 22:51:00",
+    "facilitator": "Bank Transaction",
+    "initialAmount": 75.79,
+    "finalAmount": 175.79,
+    "suggestedLot": 3.03,
+    "transactions": []
+  },
+  {
+    "id": 7,
+    "isDeposit": false,
+    "dateTime": "2020-05-25 12:5:00",
+    "facilitator": "Silvia Gonzalez",
+    "initialAmount": 70.47,
+    "finalAmount": 75.79,
+    "suggestedLot": 2.82,
+    "transactions": [
+      {
+        "id": 5,
+        "type": "buy",
+        "suggestedLot": 2.82,
+        "amount": 2,
+        "earnedAmount": -0.24,
+        "isWon": false,
+        "notes": ""
+      },
+      {
+        "id": 6,
+        "type": "put",
+        "suggestedLot": 2.81,
+        "amount": 5,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": ""
+      },
+      {
+        "id": 7,
+        "type": "put",
+        "suggestedLot": 2.81,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": ""
+      },
+      {
+        "id": 8,
+        "type": "put",
+        "suggestedLot": 2.78,
+        "amount": 10,
+        "earnedAmount": -6.69,
+        "isWon": false,
+        "notes": "Entré por mi cuenta, sin que el profesor dijera"
+      },
+      {
+        "id": 9,
+        "type": "put",
+        "suggestedLot": 2.51,
+        "amount": 6,
+        "earnedAmount": 2.75,
+        "isWon": true,
+        "notes": "Entré con $1 antes de tiempo y luego con $5 a tiempo; perdí la primera y gané la segunda"
+      },
+      {
+        "id": 10,
+        "type": "put",
+        "suggestedLot": 2.62,
+        "amount": 15,
+        "earnedAmount": 10.5,
+        "isWon": true,
+        "notes": "Arriesgué mucho de mi cuenta; estaba desesperado por ganar y \"recuperarme\""
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "isDeposit": false,
+    "dateTime": "2020-05-25 10:41:00",
+    "facilitator": "PRUEBA DEL SISTEMA",
+    "initialAmount": 70.47,
+    "finalAmount": 70.47,
+    "suggestedLot": 3.52,
+    "transactions": [
+      {
+        "id": 4,
+        "type": "put",
+        "suggestedLot": 3.52,
+        "amount": 0,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "CUARTA PRUEBA"
+      },
+      {
+        "id": 30,
+        "isBuy": true,
+        "suggestedLot": 7.14,
+        "amount": 0,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 6
+      },
+      {
+        "id": 11,
+        "type": "put",
+        "suggestedLot": 7.03,
+        "amount": 0,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "PRUEBA 2",
+        "isBuy": true,
+        "reasonOfLoss": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "isDeposit": false,
+    "dateTime": "2020-05-25 10:24:00",
+    "facilitator": "PRUEBA DEL SISTEMA",
+    "initialAmount": 70.47,
+    "finalAmount": 70.47,
+    "suggestedLot": 3.52,
+    "transactions": [
+      {
+        "id": 1,
+        "type": "put",
+        "suggestedLot": 3.52,
+        "amount": 0,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "PRUEBA DEL SISTEMA"
+      },
+      {
+        "id": 2,
+        "type": "put",
+        "suggestedLot": 3.52,
+        "amount": 0,
+        "earnedAmount": 0,
+        "isWon": true,
+        "notes": "SEGUNDA PRUEBA"
+      },
+      {
+        "id": 3,
+        "type": "put",
+        "suggestedLot": 3.52,
+        "amount": 0,
+        "earnedAmount": 0,
+        "isWon": false,
+        "notes": "TERCER PRUEBA"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "isDeposit": true,
+    "dateTime": "2020-05-25 9:56:00",
+    "facilitator": "Bank Transaction",
+    "initialAmount": 65.47,
+    "finalAmount": 70.47,
+    "suggestedLot": 3.27,
+    "transactions": []
+  },
+  {
+    "id": 3,
+    "isDeposit": false,
+    "dateTime": "2020-05-25 8:4:00",
+    "facilitator": "Hugo Gómez",
+    "initialAmount": 82.97,
+    "finalAmount": 65.47,
+    "suggestedLot": 4.15,
+    "transactions": [
+      {
+        "id": 42,
+        "isBuy": true,
+        "suggestedLot": 2.99,
+        "amount": 4.15,
+        "earnedAmount": -4.15,
+        "isWon": false,
+        "notes": "subió después de tiempo",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 43,
+        "isBuy": false,
+        "suggestedLot": 2.82,
+        "amount": 4.15,
+        "earnedAmount": -4.15,
+        "isWon": false,
+        "notes": "subió después de tiempo",
+        "reasonOfLoss": 2
+      },
+      {
+        "id": 44,
+        "isBuy": true,
+        "suggestedLot": 2.65,
+        "amount": 6.22,
+        "earnedAmount": 6.22,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 45,
+        "isBuy": false,
+        "suggestedLot": 2.9,
+        "amount": 3.15,
+        "earnedAmount": 3.15,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 46,
+        "isBuy": false,
+        "suggestedLot": 3.03,
+        "amount": 8.3,
+        "earnedAmount": -8.3,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 47,
+        "isBuy": true,
+        "suggestedLot": 2.7,
+        "amount": 3.37,
+        "earnedAmount": 0.75,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 48,
+        "isBuy": false,
+        "suggestedLot": 2.73,
+        "amount": 3.41,
+        "earnedAmount": 0.28,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 49,
+        "isBuy": false,
+        "suggestedLot": 2.74,
+        "amount": 8.3,
+        "earnedAmount": -8.3,
+        "isWon": false,
+        "notes": "entré a 3 minutos en vez de a 5",
+        "reasonOfLoss": 5
+      },
+      {
+        "id": 50,
+        "isBuy": false,
+        "suggestedLot": 2.41,
+        "amount": 3.15,
+        "earnedAmount": 3.15,
+        "isWon": true,
+        "notes": "Entré a los 2 minutos restantes que había entrado mal y corregió",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 51,
+        "isBuy": true,
+        "suggestedLot": 2.53,
+        "amount": 3.15,
+        "earnedAmount": 3.15,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 52,
+        "isBuy": false,
+        "suggestedLot": 2.66,
+        "amount": 1,
+        "earnedAmount": -1,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "type": "put",
+        "amount": 8.3,
+        "earnedAmount": -8.3,
+        "isWon": false,
+        "notes": "La tomé yo, con base a un a´nalisis propio que no resultó ",
+        "reasonOfLoss": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 0:55:00",
+    "facilitator": "Jonathan",
+    "initialAmount": 82.97,
+    "finalAmount": 82.97,
+    "suggestedLot": 4.15,
+    "transactions": [
+      {
+        "type": "put",
+        "amount": 1,
+        "earnedAmount": 0,
+        "isWon": false,
+        "notes": "No había volumen en el mercado;  decidí retirarme"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "isDeposit": false,
+    "dateTime": "2020-05-26 0:51:00",
+    "facilitator": "Leo Díaz",
+    "initialAmount": 142.61,
+    "finalAmount": 82.97000000000001,
+    "suggestedLot": 5,
+    "transactions": [
+      {
+        "type": "put",
+        "amount": 8,
+        "earnedAmount": 5.54,
+        "isWon": true,
+        "notes": "",
+        "reasonOfLoss": 0
+      },
+      {
+        "id": 53,
+        "isBuy": true,
+        "suggestedLot": 5.93,
+        "amount": 9.64,
+        "earnedAmount": -9.64,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 54,
+        "isBuy": false,
+        "suggestedLot": 5.54,
+        "amount": 7.65,
+        "earnedAmount": -7.65,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 55,
+        "isBuy": false,
+        "suggestedLot": 5.23,
+        "amount": 17.29,
+        "earnedAmount": -17.29,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      },
+      {
+        "id": 56,
+        "isBuy": false,
+        "suggestedLot": 4.54,
+        "amount": 30.6,
+        "earnedAmount": -30.6,
+        "isWon": false,
+        "notes": "",
+        "reasonOfLoss": 3
+      }
+    ]
+  }
+]
